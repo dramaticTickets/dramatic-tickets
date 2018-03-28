@@ -19,4 +19,4 @@
 * 讨论初次迭代周期及任务。
 
 ### 思维导图如图：
-[思维导图](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE1.0.png?raw=true)
+![思维导图](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE1.0.png?raw=true)
