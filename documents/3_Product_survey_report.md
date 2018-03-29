@@ -65,37 +65,37 @@ Android 系统凭借功能丰富、更适用于触摸屏设备，成为全球最
 
 **首页**
 主要的模块有头条、热映影片、即将上映、文章精选。
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-41-30.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-41-30.png?raw=true" width="300px" /></div>
 
 **电影页面**
 该页面包括四个专栏——正在热映、即将热映、小视频、排行榜，同时支持二维码扫一扫和文字搜索功能。
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-16.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-16.png?raw=true" width="300px" /></div>
 
 **影院页面**
 该页面是用户自行选择购票影院，包括三栏——按区域搜索、离我最近/价格最低排序、影院特色。同时支持定位和文字搜索功能。
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-20.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-20.png?raw=true" width="300px" /></div>
 
 **演出页面**
 提供了各类演出（包括演唱会、话剧、音乐会、曲艺、体育比赛等）信息及购票方式，同时支持文字搜索功能。
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-24.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-24.png?raw=true" width="300px" /></div>
 
 **购票流程**
 可以通过先选择影院和先选择电影两种渠道进行购票。
 
 选择影院和场次
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-46-01.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-46-01.png?raw=true" width="300px" /></div>
 
 选择想看的影片
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-45-23.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-45-23.png?raw=true" width="300px" /></div>
 
 向下滑动页面可以了解其它用户的评价
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-45-38.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-45-38.png?raw=true" width="300px" /></div>
 
 在线选座
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-46-08.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-46-08.png?raw=true" width="300px" /></div>
 
 确认订单并支付
-<img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-46-55.png?raw=true" width="300px" />
+<div align=center><img  src="https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-46-55.png?raw=true" width="300px" /></div>
 
 
 ## 可能存在的新机遇
