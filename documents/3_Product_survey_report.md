@@ -60,10 +60,10 @@ Android 系统凭借功能丰富、更适用于触摸屏设备，成为全球最
 以下业务实现过程以淘票票为例，其主要功能界面如下图所示：
 ![](https://github.com/zichang06/pics/blob/master/%E6%B7%98%E7%A5%A8%E7%A5%A8%E4%BA%A7%E5%93%81%E7%BB%93%E6%9E%84.png?raw=true)
 **用户登陆后的个人界面**
-![个人界面](https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-40-50.png?raw=true)
+![个人界面](https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-40-50.png?raw=true){:height="50%" width="50%"}
 **首页**
 主要的模块有头条、热映影片、即将上映、文章精选。
-![](https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-41-30.png?raw=true)
+![](https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-41-30.png?raw=true){:height="50%" width="50%"}
 **电影页面**
 该页面包括四个专栏——正在热映、即将热映、小视频、排行榜，同时支持二维码扫一扫和文字搜索功能。
 ![](https://github.com/zichang06/pics/blob/master/Screenshot_2018-03-29-00-42-16.png?raw=true)
