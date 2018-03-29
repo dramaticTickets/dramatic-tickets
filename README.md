@@ -1,8 +1,7 @@
 # dramatic-tickets  
 本项目的开发过程记录  
 
-## 团队分工  
-
+## Core Aritifacts
 
 ## Iteration  
 
