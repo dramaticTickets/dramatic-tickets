@@ -1,2 +1,4 @@
+# 用例设计
 
-注册：用户可以点击注册按钮进入注册界面输入用户名、邮箱、登录密码，在确认用户名没有重复、密码符合规范并验证邮箱之后，提示用户注册成功。
+## 用例图
+![用例图](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/7_use_case_1.png?raw=true)
