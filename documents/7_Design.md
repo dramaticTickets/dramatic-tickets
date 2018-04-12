@@ -4,6 +4,12 @@
 
 ## UI设计
 
+### 登陆注册用例
+
+![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/登录注册.jpg?raw=true)
+
+### UI
+
 1. 首页
 
 ![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/1_主页.png?raw=true)
@@ -20,3 +26,10 @@
 
 ![个人信息](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/3_我的.png?raw=true)
 
+5. 登陆
+
+![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/5_登陆.png?raw=true)
+
+6. 注册
+
+![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/6_注册.png?raw=true)
