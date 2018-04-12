@@ -6,7 +6,7 @@
 
 ### 登陆注册用例
 
-![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/登录注册.jpg?raw=true)
+![登陆注册](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/登陆注册.jpg?raw=true)
 
 ### UI
 
@@ -28,8 +28,8 @@
 
 5. 登陆
 
-![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/5_登陆.png?raw=true)
+![登陆](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/5_登陆.png?raw=true)
 
 6. 注册
 
-![首页](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/6_注册.png?raw=true)
+![注册](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/6_注册.png?raw=true)
