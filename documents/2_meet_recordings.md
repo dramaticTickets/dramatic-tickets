@@ -60,8 +60,7 @@
 * 完善需求，绘制用例图
 	* [Usecase Diagram设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/8_use_case.md)
 #### 任务三：学习开发知识，确定前端框架以及后端接口、数据库设计
+* 了解代码规范
 * 设计完善数据库接口
 * 初步搭建服务器
-
-
 * 进一步学习Android开发以及服务器搭建技术
