@@ -1,6 +1,11 @@
-##Use Case 图  
-to be done..  
-##Use Case 文本  
+
+
+# 用例设计
+
+## Use Case 图  
+![用例图](https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/7_use_case_1.png?raw=true)
+
+## Use Case 文本  
 1. Brief Level  
 - 注册：用户可以点击注册按钮进入注册界面输入用户名、邮箱、登录密码，在确认用户名没有重复、密码符合规范并验证邮箱之后，提示用户注册成功。  
 - 登录：已注册用户可点击登录按钮进入登录界面，输入正确用户名和密码即可成功登录。  
