@@ -21,7 +21,7 @@
 to be done..
 
 3. Detailed Level
-- 处理订票  
+处理订票  
 范围：电影订票app  
 等级：用户目标  
 主要参与者：订票顾客  
