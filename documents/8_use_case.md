@@ -20,5 +20,5 @@
 活动图： 
 to be done..
 
-3.Detailed Level
+3. Detailed Level
 
