@@ -18,7 +18,7 @@
 
 ### Tech/Work Report
 
-- [15331034-工具使用方法](https://chenxy296.github.io/)
+- [15331034-工具使用方法](https://chenxy296.github.io/week%203/2018/04/15/工具使用方法.html)
 - [15331009-个人学习报告](https://zichang06.github.io/2018/04/14/UMLlearningReport/)
 
 
