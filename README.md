@@ -17,7 +17,7 @@
 
 ### Tech/Work Report
 
-- [15331034-工具使用方法](chenxy296.github.io/)
+- [15331034-工具使用方法](https://chenxy296.github.io/)
 
 
 
