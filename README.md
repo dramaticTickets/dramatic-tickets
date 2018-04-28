@@ -23,7 +23,7 @@
 - [15331026-工具使用介绍](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331026_%E9%99%88%E6%A5%A0_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D.md)
 - [15331027-工具学习使用](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331027_%E9%99%88%E7%A5%BA%E5%8D%8E_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md)
 - [15331296-个人学习报告](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331296_%E7%8E%8B%E5%87%8C%E9%94%8B_%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A.md)
-- [15331010-个人学习报告](dramatic-tickets/documents/Tech_Work_Report/15331010_曹思佳_SpringMVC学习报告.md )
+- [15331010-个人学习报告](https://cicicigar.github.io/2018/04/14/SpringMVC学习报告/)
 
 
 
