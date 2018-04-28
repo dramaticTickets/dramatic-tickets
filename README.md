@@ -15,6 +15,7 @@
 | [生产规范与指南](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/9_code_style.md) |        15331009-曹蕊        |
 | [第二次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |       15331048-陈紫荆        |
 | [第三次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |       15331009-曹蕊        |
+| [Database design](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/小组作业ER建模.png) |       15331010-曹思佳        |
 
 ### Tech/Work Report
 
