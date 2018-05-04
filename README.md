@@ -1,7 +1,6 @@
 # README
 ## 项目分工及进展
 
-<<<<<<< HEAD
 |                  团队作业清单                  |        贡献         |
 | :--------------------------------------: | :---------------: |
 | [github-page](https://dramatictickets.github.io/) |     15331034      |
@@ -17,25 +16,7 @@
 | [第二次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |     15331048      |
 | [第三次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |     15331009      |
 | [Database design（markdown）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md), [Database design（图）](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/小组作业ER建模.png) |     15331010      |
-=======
-|                  团队作业清单                  |            贡献             |
-| :--------------------------------------: | :-----------------------: |
-| [github-page](https://dramatictickets.github.io/) |       15331034-陈湘仪        |
-| [About（项目规划）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/ABOUT.md) | 15331026-陈楠、15331027-陈祺华  |
-| [Team profile（团队组建）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/1_responsibility_assignment.md) |       15331034-陈湘仪        |
-| [ Investigation（项目前期调研）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/3_Product_survey_report.md) |        15331009-曹蕊        |
-| [ Vision（项目愿景）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/4_vision.md) | 15331026-陈楠、15331027-陈祺华  |
-| [ Product Backlog （产品特性）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/5_product_backlog_initial.md) |       15331296-王凌锋        |
-| [第一次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |       15331048-陈紫荆        |
-| [ Requirement specification（需求规格说明）:usecase diagram](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/8_use_case.md) | 15331026-陈楠、15331027-陈祺华  |
-| [UI design](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) | 15331034-陈湘仪、15331010-曹思佳 |
-| [生产规范与指南](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/9_code_style.md) |        15331009-曹蕊        |
-| [第二次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |       15331048-陈紫荆        |
-| [第三次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |        15331009-曹蕊        |
-| [Database design（markdown）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md), [Database design（图）](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/小组作业ER建模.png) |       15331010-曹思佳        |
-| [Domain Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md) |        15331296-王凌锋        |
->>>>>>> d52a76338faad35ce64f4ba4841c037bd1e61d8c
-
+| [Domain Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md) |     15331296      |
 ### Tech/Work Report
 
 - [15331034-工具使用方法](https://chenxy296.github.io/week%203/2018/04/15/工具使用方法.html)
