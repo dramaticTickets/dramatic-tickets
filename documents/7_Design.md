@@ -98,6 +98,21 @@ POST /resource/users/{username}
 }
 ```
 
+#### 用户登出
+
+```
+POST /resource/users/{userId}
+```
+
+#### Response
+
+```
+{
+    "code":"200",
+    "userId":"334455"
+}
+```
+
 #### 用户注册
 
 ```
