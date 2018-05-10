@@ -1,6 +1,6 @@
 
 这是一个系统建模任务。建模的对象是“饿了么外卖app”，这是一个在中国使用较为广泛的外卖在线订餐app。  
-![Picture 1](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg =100x400)  
+![Picture 1](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg)  
 截图1显示，“饿了么外卖app”可以自动帮用户定位当前位置，也可以由用户自行修改当前地址。用户可以选择想要的外卖类型，包括美食，甜品，蔬果，药品等等。
 用户还可以直接搜索外卖商家或商品名称，从而找到想要的外卖。  
 
