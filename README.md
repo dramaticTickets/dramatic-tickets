@@ -4,7 +4,7 @@ README
 
 |                  团队作业清单                  |        贡献         |
 | :--------------------------------------: | :---------------: |
-| [github-page](https://dramatictickets.github.io/) |     15331034      |
+| [github-page](https://dramatictickets.github.io/dashboard) |     15331034      |
 | [About（项目规划）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/ABOUT.md) | 15331026、15331027 |
 | [Team profile（团队组建）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/1_responsibility_assignment.md) |     15331034      |
 | [ Investigation（项目前期调研）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/3_Product_survey_report.md) |     15331009      |
