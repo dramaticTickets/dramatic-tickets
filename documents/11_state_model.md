@@ -1,4 +1,4 @@
-# 12 State model
+# 11 State model
 主要有两个状态模型：订单状态模型和座位订单模型。
 ## Reservation state model
 
