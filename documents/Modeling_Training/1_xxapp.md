@@ -9,7 +9,7 @@
 
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%203.jpg?raw=true" width = 300px height = 500px />  
-截图3显示
+截图3显示，当用户进入某一个商家的主页后
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%204.jpg?raw=true" width = 300px height = 500px />  
 截图4显示
