@@ -1,4 +1,5 @@
-# README
+README
+
 ## 项目分工及进展
 
 |                  团队作业清单                  |        贡献         |
@@ -18,6 +19,7 @@
 | [Database design（markdown）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md), [Database design（图）](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/小组作业ER建模.png) |     15331010      |
 | [Domain Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md) |     15331296      |
 | [State Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_state_model.md) |     15331009      |
+| [API设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) |     15331048      |
 ### Tech/Work Report
 
 - [15331034-工具使用方法](https://chenxy296.github.io/week%203/2018/04/15/工具使用方法.html)
