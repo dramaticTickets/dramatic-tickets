@@ -8,14 +8,14 @@
 截图2显示，这个app可以根据各方面的数据，将附近可供选择的外卖商家排序后推荐给用户，并显示商家的评分、距离、预计配送时间、优惠等信息。  
 
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%203.jpg?raw=true" width = 300px height = 500px />  
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%203.jpg?raw=true" width = 300px height = 500px />  
 截图3显示
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%204.jpg?raw=true" width = 300px height = 500px />  
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%204.jpg?raw=true" width = 300px height = 500px />  
 截图4显示
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
 截图5显示
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
 截图6显示
