@@ -14,8 +14,8 @@
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%204.jpg?raw=true" width = 300px height = 500px />  
 截图4显示了订单界面，用户可以自行选择配送地址和支付方式，并选择使用红包和代金券，选择支付方式；用户也可以在该页面确认订单详情，若发现订单有误则可以返回商家主页重新选择商品。
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%205.jpg?raw=true" width = 300px height = 500px />  
 截图5显示
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%206.jpg?raw=true" width = 300px height = 500px />  
 截图6显示
