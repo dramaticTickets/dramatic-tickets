@@ -12,10 +12,10 @@
 截图3显示，当用户进入某一个商家的主页后，可以查看其他用户对该外卖商家的评价，查看商品信息并选择购买具体的外卖商品。
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%204.jpg?raw=true" width = 300px height = 500px />  
-截图4显示了订单界面，用户可以自行选择配送地址和支付方式，并选择使用红包和代金券，选择支付方式；用户也可以在该页面确认订单详情，若发现订单有误则可以返回商家主页重新选择商品。
+截图4显示了下单界面，用户可以自行选择配送地址和支付方式，并选择使用红包和代金券，选择支付方式；用户也可以在该页面确认订单详情，若发现订单有误则可以返回商家主页重新选择商品。
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%205.jpg?raw=true" width = 300px height = 500px />  
-截图5显示
+截图5显示了历史订单页面，在这里用户可以查看或删除历史订单。
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%206.jpg?raw=true" width = 300px height = 500px />  
-截图6显示
+截图6显示的是支付界面，用户可以在这里选择支付方式，并确认支付；若超过了支付限定时间，则订单自动取消。
