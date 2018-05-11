@@ -9,10 +9,10 @@
 
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%203.jpg?raw=true" width = 300px height = 500px />  
-截图3显示，当用户进入某一个商家的主页后，可以查看商品信息并选择具体的外卖商品，查看其他用户对该外卖商家的评价
+截图3显示，当用户进入某一个商家的主页后，可以查看其他用户对该外卖商家的评价，查看商品信息并选择购买具体的外卖商品。
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%204.jpg?raw=true" width = 300px height = 500px />  
-截图4显示
+截图4显示了订单界面，用户可以自行选择配送地址和支付方式，并选择使用红包和代金券，选择支付方式；用户也可以在该页面确认订单详情，若发现订单有误则可以返回商家主页重新选择商品。
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Modeling_Training/Picture/Pic%201.jpg?raw=true" width = 300px height = 500px />  
 截图5显示
