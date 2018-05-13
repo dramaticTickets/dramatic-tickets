@@ -1,12 +1,16 @@
 # 功能模型
 
 1. 用户注册
-2. 先选好电影再购票
+2. 先选好电影再购票(15331027)
 3. 先选好电影院再购票
 4. 买好票后，换同一场次的座位
 5. 买票查看历史记录
 6. 查看将要开场的电影票（15331048）
 7. 更改用户资料（15331034）
+
+## 2. 通过查找电影来购票
+
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/System%20Sequence%20Diagram%202.png"  width="100%"  />
 
 ## 4. 买好票后，换同一场次的座位
 
