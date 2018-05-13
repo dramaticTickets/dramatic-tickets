@@ -10,7 +10,7 @@
 
 ## 2. 通过查找电影来购票
 
-<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/System%20Sequence%20Diagram%202.png"  width="100%"  />
+<img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/System%20Sequence%20Diagram%202.png"  width="80%"  />
 
 ## 4. 买好票后，换同一场次的座位
 
