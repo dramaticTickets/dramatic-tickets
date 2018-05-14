@@ -2,7 +2,7 @@
 
 1. 用户注册(15331026)
 2. 先选好电影再购票(15331027)
-3. 先选好电影院再购票
+3. 先选好电影院再购票(15331010)
 4. 买好票后，换同一场次的座位
 5. 买票查看历史记录（15331009）
 6. 查看将要开场的电影票（15331048）
@@ -15,6 +15,9 @@
 ## 2. 通过查找电影来购票
 
 <img src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/System%20Sequence%20Diagrams%202.png"  width="80%"  />
+
+## 3. 通过查找电影院来购票
+<img alt="查找影院以购票" src="https://raw.githubusercontent.com/Cicicigar/markdown_pics/master/顺序图3.PNG"  width="100%" />
 
 ## 4. 买好票后，换同一场次的座位
 
