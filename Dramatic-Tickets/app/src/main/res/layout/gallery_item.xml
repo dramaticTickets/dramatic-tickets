@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="110dp"
+    android:layout_height="190dp">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:text="购票"
+        android:layout_marginLeft="30dp"
+        android:background="@color/darkGray"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/movie_poster"
+        android:src="@drawable/poster_small_player"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_chinese_name"
+        android:text="头号玩家"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/movie_poster"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_english_name"
+        android:text="Ready Player One"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/movie_poster"
+        app:layout_constraintTop_toBottomOf="@+id/movie_chinese_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_type"
+        android:text="动作|科幻|冒险"
+        android:textColor="@color/darkGray"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/movie_poster"
+        app:layout_constraintTop_toBottomOf="@+id/movie_english_name"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_country"
+        android:text="美国"
+        android:textColor="@color/darkGray"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/movie_poster"
+        app:layout_constraintTop_toBottomOf="@+id/movie_type"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_length"
+        android:text="140分钟"
+        android:textColor="@color/darkGray"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/movie_country"
+        app:layout_constraintTop_toBottomOf="@+id/movie_type"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_onDate"
+        android:text="2018年3月30号上映"
+        android:textColor="@color/darkGray"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/movie_poster"
+        app:layout_constraintTop_toBottomOf="@+id/movie_length"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_poster"
+        android:layout_marginTop="5dp"
+        android:id="@+id/scrollView">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/moive_introduction"
+            android:text="在2045年，现实世界衰退破败，人们沉迷于VR（虚拟现实）游戏“绿洲（OASIS）”的虚幻世界里寻求慰藉。马克里朗斯饰演的“绿洲”创始人临终前宣布，将亿万身家全部留给寻获他隐藏的彩蛋的游戏玩家，史上最大规模的寻宝冒险就此展开，由泰伊·谢里丹饰演的男主角韦德·沃兹（Wade Watts/Parzival）和数十亿竞争者踏上奇妙而又危机重重的旅途。"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:background="@color/colorAccent"
+        android:text="选座购票"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+</android.support.constraint.ConstraintLayout>
