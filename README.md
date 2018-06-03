@@ -20,7 +20,7 @@ README
 | [Domain Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md) |     15331296      |
 | [State Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_state_model.md) |     15331009      |
 | [API设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) |     15331048      |
-| [System Sequence Diagram（功能模型）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_System_Sequence_Diagram.md) |                   |
+| [System Sequence Diagram（功能模型）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_System_Sequence_Diagram.md) |  15331009  15331034  15331048  |
 | [Software Architecture Document ](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/14_Software_Architecture_Document.md) |      15331010          |
 | [ 建模练习 ](https://github.com/dramaticTickets/dramatic-tickets/tree/master/documents/Modeling_Training) |                   |
 ### Tech/Work Report
