@@ -1,28 +1,23 @@
 package com.example.chen.dramatic_tickets;
 
-import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jude.rollviewpager.RollPagerView;
+import com.jude.rollviewpager.adapter.LoopPagerAdapter;
 import com.jude.rollviewpager.adapter.StaticPagerAdapter;
-import com.jude.rollviewpager.hintview.ColorPointHintView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -52,13 +47,13 @@ public class BaseFragment extends Fragment {
 
             view = inflater.inflate(R.layout.fragment_home, null);
             //电影海报轮播器
-            RollPagerView mRollViewPager = (RollPagerView) view.findViewById(R.id.roll_view_pager);
+            MyRollPagerView mRollViewPager = (MyRollPagerView) view.findViewById(R.id.roll_view_pager);
             //设置海报轮播播放时间间隔
             mRollViewPager.setPlayDelay(3000);
             //设置海报轮播透明度
             mRollViewPager.setAnimationDurtion(500);
             //设置海报轮播适配器
-            mRollViewPager.setAdapter(new TestNormalAdapter());
+            mRollViewPager.setAdapter(new TestNormalAdapter(mRollViewPager));
 
             //设置搜索框监听器
             SearchView searchview = (SearchView) view.findViewById(R.id.searchview);
@@ -188,13 +183,17 @@ public class BaseFragment extends Fragment {
         cinemaData.add(item5);
     }
 
-    private class TestNormalAdapter extends StaticPagerAdapter {
+    private class TestNormalAdapter extends LoopPagerAdapter {
         private int[] imgs = {//顶部轮播海报图片
                 R.drawable.poster_player,
                 R.drawable.poster_avenge,
                 R.drawable.poster_deadpool,
                 R.drawable.poster_jueji
         };
+
+        public TestNormalAdapter(RollPagerView viewPager) {
+            super(viewPager);
+        }
 
         @Override
         public View getView(ViewGroup container, int position) {
@@ -206,7 +205,7 @@ public class BaseFragment extends Fragment {
         }
 
         @Override
-        public int getCount() {
+        public int getRealCount() {
             return imgs.length;
         }
     }
