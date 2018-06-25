@@ -73,11 +73,12 @@ public class BaseFragment extends Fragment {
 
             //设置“热映电影”滑动浏览框
             mGallery1 = (LinearLayout) view.findViewById(R.id.gallery_id);
+
             showingMovieSmallPosters = new int[] {//获取电影海报图片
-                    R.drawable.poster_small_player,
-                    R.drawable.poster_small_avengers,
-                    R.drawable.poster_small_deadpool,
-                    R.drawable.poster_small_jueji
+                    R.mipmap.poster_small_player,
+                    R.mipmap.poster_small_avengers,
+                    R.mipmap.poster_small_deadpool,
+                    R.mipmap.poster_small_jueji
             };
             for (int i = 0; i < showingMovieSmallPosters.length; i++) {
                 View smallView = inflater.inflate(R.layout.gallery_item, mGallery1, false);
@@ -95,10 +96,10 @@ public class BaseFragment extends Fragment {
             //设置“即将上映”滑动浏览框
             mGallery2 = (LinearLayout) view.findViewById(R.id.gallery_id2);
             notShownMovieSmallPosters = new int[] {//获取电影海报图片
-                    R.drawable.poster_small_jail,
-                    R.drawable.poster_small_island,
-                    R.drawable.poster_small_super,
-                    R.drawable.poster_small_dino
+                    R.mipmap.poster_small_jail,
+                    R.mipmap.poster_small_island,
+                    R.mipmap.poster_small_super,
+                    R.mipmap.poster_small_dino
             };
             for (int i = 0; i < notShownMovieSmallPosters.length; i++) {
                 View smallView = inflater.inflate(R.layout.gallery_no_button, mGallery2, false);
@@ -185,10 +186,10 @@ public class BaseFragment extends Fragment {
 
     private class TestNormalAdapter extends LoopPagerAdapter {
         private int[] imgs = {//顶部轮播海报图片
-                R.drawable.poster_player,
-                R.drawable.poster_avenge,
-                R.drawable.poster_deadpool,
-                R.drawable.poster_jueji
+                R.mipmap.poster_player,
+                R.mipmap.poster_avenge,
+                R.mipmap.poster_deadpool,
+                R.mipmap.poster_jueji
         };
 
         public TestNormalAdapter(RollPagerView viewPager) {
@@ -209,5 +210,4 @@ public class BaseFragment extends Fragment {
             return imgs.length;
         }
     }
-
 }

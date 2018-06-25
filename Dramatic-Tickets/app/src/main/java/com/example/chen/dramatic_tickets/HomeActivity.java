@@ -22,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-        //默认 >3 的选中效果会影响ViewPager的滑动切换时的效果，故利用反射去掉
+        //默认的选中效果会影响ViewPager的滑动切换时的效果，故利用反射去掉
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
