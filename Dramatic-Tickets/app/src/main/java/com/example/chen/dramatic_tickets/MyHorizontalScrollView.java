@@ -22,14 +22,28 @@ public class MyHorizontalScrollView extends HorizontalScrollView {
         super(context, attrs, defStyleAttr);
     }
 
+    int lastXIntercept;
+    int lastYIntercept;
+
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
+        int x=(int) ev.getX();
+        int y = (int) ev.getY();
+
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
+                lastXIntercept = x;
+                lastXIntercept = y;
                 getParent().requestDisallowInterceptTouchEvent(true);
                 break;
             case MotionEvent.ACTION_MOVE:
-                getParent().requestDisallowInterceptTouchEvent(true);
+                final int deltaX = x - lastXIntercept;
+                final int deltaY = y - lastYIntercept;
+                if(Math.abs(deltaX) > Math.abs(deltaY)) {
+                    getParent().requestDisallowInterceptTouchEvent(false);
+                } else {
+                    getParent().requestDisallowInterceptTouchEvent(true);
+                }
                 break;
             case MotionEvent.ACTION_CANCEL:
                 break;
@@ -37,6 +51,9 @@ public class MyHorizontalScrollView extends HorizontalScrollView {
                 break;
 
         }
+        lastXIntercept = x;
+        lastXIntercept = y;
+
         return super.dispatchTouchEvent(ev);
     }
 }
