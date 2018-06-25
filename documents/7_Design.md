@@ -48,6 +48,9 @@
 
 1. [E-R逻辑模型问题1](https://github.com/dramaticTickets/dramatic-tickets/issues/2)
 
+### E-R逻辑模型修改
+<img src="https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/修改ER图.png" width="100%">
+
 
 
 
