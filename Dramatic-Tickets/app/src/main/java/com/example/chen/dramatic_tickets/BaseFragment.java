@@ -1,5 +1,6 @@
 package com.example.chen.dramatic_tickets;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -145,7 +146,9 @@ public class BaseFragment extends Fragment {
             register.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(getActivity(), "点击跳转注册界面", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent();
+                    intent.setClass(getActivity(), SignUpActivity.class);
+                    startActivityForResult(intent, 1);
                 }
             });
         }
