@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/title_background"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/gray0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认订单"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_background"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="19sp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/movie_chinese_name"
+        android:text="死侍2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_background"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-06-09"
+        android:id="@+id/ticket_date"
+        app:layout_constraintLeft_toLeftOf="@+id/movie_chinese_name"
+        app:layout_constraintTop_toBottomOf="@+id/movie_chinese_name"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15:00~17:30"
+        android:id="@+id/ticket_time"
+        app:layout_constraintLeft_toRightOf="@+id/ticket_date"
+        app:layout_constraintTop_toBottomOf="@+id/movie_chinese_name"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:alpha="0.8"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="太平洋影院"
+        android:id="@+id/ticket_cinema"
+        app:layout_constraintLeft_toLeftOf="@+id/ticket_date"
+        app:layout_constraintTop_toBottomOf="@+id/ticket_date"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3号厅"
+        android:id="@+id/ticket_hall"
+        app:layout_constraintLeft_toRightOf="@+id/ticket_cinema"
+        app:layout_constraintTop_toBottomOf="@+id/ticket_date"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:alpha="0.8"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9排4座 9排5座 9排6座"
+        android:id="@+id/ticket_seats"
+        app:layout_constraintLeft_toLeftOf="@+id/ticket_cinema"
+        app:layout_constraintTop_toBottomOf="@+id/ticket_cinema"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_background"
+        android:src="@drawable/poster_small_deadpool"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movie_poster"
+        android:background="@color/black"
+        android:layout_marginTop="25dp"
+        android:alpha="0.7"
+        android:id="@+id/line1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notice_text"
+        android:text="购票须知"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line1"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:alpha="0.7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/notice_text_detail"
+        app:layout_constraintLeft_toLeftOf="@+id/notice_text"
+        app:layout_constraintTop_toBottomOf="@+id/notice_text"
+        android:text="1.请确认场次和时间无误，购买成功后将不予退换
+2.由于设备故障等不可抗力因素，存在少量场次取消的情况，会进行退票退款
+3.由于影院系统不稳定等因素，存在出票失败的情况，会进行退款"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3dp"/>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notice_text_detail"
+        android:background="@color/black"
+        android:layout_marginTop="30dp"
+        android:alpha="0.7"
+        android:id="@+id/line2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实付金额"
+        android:id="@+id/money_text"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line2"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89元"
+        android:id="@+id/pay_amount"
+        android:textColor="@color/red"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/money_text"
+        android:textSize="22sp"
+        android:layout_marginRight="35dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:background="@color/colorAccent"
+        android:text="立即付款"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:id="@+id/buy_tickets_button"/>
+</android.support.constraint.ConstraintLayout>

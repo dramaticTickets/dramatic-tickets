@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/poster_small_deadpool"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/movie_chinese_name"
+        android:text="死侍2"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toRightOf="@id/movie_poster"
+        app:layout_constraintTop_toTopOf="@id/movie_poster"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/audience_review"
+        app:layout_constraintTop_toBottomOf="@id/movie_chinese_name"
+        app:layout_constraintLeft_toRightOf="@id/movie_poster"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:text="观众评分"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.5"
+        android:id="@+id/star_rate"
+        app:layout_constraintLeft_toRightOf="@id/audience_review"
+        app:layout_constraintBottom_toBottomOf="@id/audience_review"
+        android:textSize="18sp"
+        android:layout_marginLeft="7dp"
+        android:textColor="#FFFFC400"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/director"
+        app:layout_constraintLeft_toLeftOf="@id/audience_review"
+        app:layout_constraintTop_toBottomOf="@id/audience_review"
+        android:text="导演: "
+        android:textSize="15sp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/director_name"
+        app:layout_constraintLeft_toRightOf="@id/director"
+        app:layout_constraintTop_toBottomOf="@id/audience_review"
+        android:text="胡安·安东尼奥"
+        android:textSize="15sp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_actor"
+        app:layout_constraintLeft_toLeftOf="@id/audience_review"
+        app:layout_constraintTop_toBottomOf="@id/director"
+        android:text="主演: "
+        android:textSize="15sp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_actor_name"
+        app:layout_constraintLeft_toRightOf="@id/main_actor"
+        app:layout_constraintTop_toBottomOf="@id/director"
+        android:text="克里斯·帕拉特"
+        android:textSize="15sp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:id="@+id/buy_tickets_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorAccent"
+        android:text="购票"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"/>
+</android.support.constraint.ConstraintLayout>
