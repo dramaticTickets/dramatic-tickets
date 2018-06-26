@@ -22,11 +22,14 @@ import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 
 public class BaseFragment extends Fragment {
     private ArrayList<Map<String,Object>> cinemaData= new ArrayList<Map<String,Object>>();
+    private String userName, password, confirmPassword, phoneNumber;
+
 
     public static BaseFragment newInstance(String info) {
         Bundle args = new Bundle();
@@ -139,10 +142,17 @@ public class BaseFragment extends Fragment {
             login.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(getActivity(), "点击跳转登录界面", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent();
+                    intent.setClass(getActivity(), SignInActivity.class);
+
+                    //此处传入数据作检测用，实际应用数据库的账号密码
+                    intent.putExtra("usrNameLogin", userName);
+                    intent.putExtra("passwordLogin", password);
+                    startActivityForResult(intent, 2);
                 }
             });
 
+            //跳转注册界面
             register.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -212,5 +222,27 @@ public class BaseFragment extends Fragment {
         public int getRealCount() {
             return imgs.length;
         }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        super.onActivityResult(requestCode, resultCode, intent);
+        if (requestCode == 1) {
+            if(resultCode == 1) {
+                userName = intent.getStringExtra("usrName").toString();
+                password = intent.getStringExtra("password").toString();
+                confirmPassword = intent.getStringExtra("confirmPassword").toString();
+                phoneNumber = intent.getStringExtra("phoneNumber").toString();
+            }
+        }
+
+        if (requestCode == 2) {
+            if(resultCode == 2) {
+                Toast.makeText(getActivity(), "登陆成功", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getActivity(), "登录失败", Toast.LENGTH_SHORT).show();
+            }
+        }
+
     }
 }

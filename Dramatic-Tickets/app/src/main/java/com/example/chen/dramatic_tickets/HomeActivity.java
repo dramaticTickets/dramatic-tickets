@@ -1,5 +1,7 @@
 package com.example.chen.dramatic_tickets;
 
+import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -91,5 +93,12 @@ public class HomeActivity extends AppCompatActivity {
             return true;
         }
         return super.onKeyDown(keyCode, event);
+    }
+
+   @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        super.onActivityResult(requestCode, resultCode, intent);
+        //Fragment fragment = getSupportFragmentManager().findFragmentByTag(BaseFragment.newInstance("影院"));
+
     }
 }

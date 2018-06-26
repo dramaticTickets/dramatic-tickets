@@ -20,6 +20,7 @@ package="com.example.chen.dramatic_tickets">
     </activity>
 
     <activity android:name=".SignUpActivity"></activity>
+    <activity android:name=".SignInActivity"></activity>
 </application>
 
 </manifest>
