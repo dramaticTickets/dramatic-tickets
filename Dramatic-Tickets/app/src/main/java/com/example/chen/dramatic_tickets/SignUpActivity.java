@@ -102,7 +102,7 @@ public class SignUpActivity extends AppCompatActivity {
                 }
 
                 //此处完成了检测，暂时将数据传回上一个部分进行处理。实际应传数据到数据库并判断是否注册成功。
-                if (resultcode == 2) {
+                if (resultcode == 1) {
                     Intent intent = getIntent();
                     Bundle bundle = new Bundle();
                     bundle.putString("usrName", stringUserName);
