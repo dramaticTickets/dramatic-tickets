@@ -2,27 +2,31 @@ README
 
 ## 项目分工及进展
 
-|                  团队作业清单                  |        贡献         |
-| :--------------------------------------: | :---------------: |
-| [github-page](https://dramatictickets.github.io/dashboard) |     15331034      |
-| [About（项目规划）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/ABOUT.md) | 15331026、15331027 |
-| [Team profile（团队组建）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/1_responsibility_assignment.md) |     15331034      |
-| [ Investigation（项目前期调研）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/3_Product_survey_report.md) |     15331009      |
-| [ Vision（项目愿景）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/4_vision.md) | 15331026、15331027 |
-| [ Product Backlog （产品特性）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/5_product_backlog_initial.md) |     15331296      |
-| [第一次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |     15331048      |
-| [ Requirement specification（需求规格说明）:usecase diagram](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/8_use_case.md) | 15331026、15331027 |
-| [UI design](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) | 15331034、15331010 |
-| [生产规范与指南](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/9_code_style.md) |     15331009      |
-| [第二次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |     15331048      |
-| [第三次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |     15331009      |
-| [Database design（markdown）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md), [Database design（图）](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/小组作业ER建模.png) |     15331010      |
-| [Domain Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md) |     15331296      |
-| [State Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_state_model.md) |     15331009      |
-| [API设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) |     15331048      |
-| [System Sequence Diagram（功能模型）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_System_Sequence_Diagram.md) |  15331009、15331034、15331048  |
-| [Software Architecture Document ](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/14_Software_Architecture_Document.md) |15331010、15331026、15331027、15331296|
-| [ 建模练习 ](https://github.com/dramaticTickets/dramatic-tickets/tree/master/documents/Modeling_Training) |                   |
+|                  团队作业清单                  |                 贡献                  |
+| :--------------------------------------: | :---------------------------------: |
+| [github-page](https://dramatictickets.github.io/dashboard) |              15331034               |
+| [About（项目规划）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/ABOUT.md) |          15331026、15331027          |
+| [Team profile（团队组建）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/1_responsibility_assignment.md) |              15331034               |
+| [ Investigation（项目前期调研）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/3_Product_survey_report.md) |              15331009               |
+| [ Vision（项目愿景）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/4_vision.md) |          15331026、15331027          |
+| [ Product Backlog （产品特性）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/5_product_backlog_initial.md) |              15331296               |
+| [第一次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |              15331048               |
+| [ Requirement specification（需求规格说明）:usecase diagram](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/8_use_case.md) |          15331026、15331027          |
+| [UI design](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) |          15331034、15331010          |
+| [生产规范与指南](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/9_code_style.md) |              15331009               |
+| [第二次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |              15331048               |
+| [第三次会议记录](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/2_meet_recordings.md) |              15331009               |
+| [Database design（markdown）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md), [Database design（图）](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/小组作业ER建模.png) |              15331010               |
+| [Domain Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md) |              15331296               |
+| [State Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_state_model.md) |              15331009               |
+| [API设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/7_Design.md) |              15331048               |
+| [System Sequence Diagram（功能模型）](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/12_System_Sequence_Diagram.md) |     15331009、15331034、15331048      |
+| [Supplementary Requirements](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/13_Supplementary_Specification.md) |     15331009、15331034、15331048      |
+| [Software Architecture Document ](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/14_Software_Architecture_Document.md) | 15331010、15331026、15331027、15331296 |
+| [ 建模练习 ](https://github.com/dramaticTickets/dramatic-tickets/tree/master/documents/Modeling_Training) |                                     |
+|              [ ECB用例设计 ]()               |              15331009               |
+| [框架目录设计与逻辑架构与 ECB 的关系](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/15_Catalog_design_Logical_architecture_ECB.md) |              153310034              |
+
 ### Tech/Work Report
 
 - [15331034-工具使用方法](https://chenxy296.github.io/week%203/2018/04/15/工具使用方法.html)

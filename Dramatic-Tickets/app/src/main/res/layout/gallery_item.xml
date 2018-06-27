@@ -16,6 +16,7 @@
         android:layout_width="45dp"
         android:layout_height="25dp"
         android:text="购票"
+        android:id="@+id/buyTicket"
         android:layout_marginLeft="30dp"
         android:background="@color/darkGray"
         android:textColor="@color/white"

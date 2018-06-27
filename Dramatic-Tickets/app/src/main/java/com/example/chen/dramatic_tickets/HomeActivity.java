@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
@@ -16,12 +18,21 @@ public class HomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private MenuItem menuItem;
     private BottomNavigationView bottomNavigationView;
+    private ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+    BaseFragment shouye = BaseFragment.newInstance("首页");
+    BaseFragment yingyuan =BaseFragment.newInstance("影院");
+    BaseFragment wode = BaseFragment.newInstance("我的");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        /*
+        addFragment(shouye,"shouye");
+        addFragment(yingyuan,"yingyuan");
+        addFragment(wode,"wode");
+        */
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         //默认的选中效果会影响ViewPager的滑动切换时的效果，故利用反射去掉
@@ -79,11 +90,18 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void setupViewPager(ViewPager viewPager) {
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(BaseFragment.newInstance("首页"));
-        adapter.addFragment(BaseFragment.newInstance("影院"));
-        adapter.addFragment(BaseFragment.newInstance("我的"));
+        adapter.addFragment(shouye);
+        adapter.addFragment(yingyuan);
+        adapter.addFragment(wode);
         viewPager.setAdapter(adapter);
+    }
+
+    //给fragment加标签
+    private void addFragment(BaseFragment fragment, String tag) {
+        FragmentManager manager = getSupportFragmentManager();
+        FragmentTransaction transaction = manager.beginTransaction();
+        transaction.add(R.id.viewpager, fragment, tag);
+        transaction.commit();
     }
 
     @Override
@@ -98,7 +116,14 @@ public class HomeActivity extends AppCompatActivity {
    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
-        //Fragment fragment = getSupportFragmentManager().findFragmentByTag(BaseFragment.newInstance("影院"));
 
+        //Fragment fragment = getSupportFragmentManager().findFragmentByTag(BaseFragment.newInstance("影院"));
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        //adapter.notifyAll();
+        //HomeActivity.this.reLoadFragView();
     }
 }
