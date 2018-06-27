@@ -7,6 +7,7 @@
     <color name="tab_checked">#3F51B5</color>
     <color name="tab_unchecked">#757575</color>
 
+    <color name="gray0">#f0f0f0</color>
     <color name="gray1">#d1d1d1</color>
     <color name="gray2">#b4b4b4</color>
     <color name="darkGray">#727272</color>

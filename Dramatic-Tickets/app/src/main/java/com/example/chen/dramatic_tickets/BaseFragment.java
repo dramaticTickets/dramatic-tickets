@@ -1,11 +1,16 @@
 package com.example.chen.dramatic_tickets;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.SearchView;
+import android.text.method.MovementMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -14,6 +19,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jude.rollviewpager.RollPagerView;
@@ -21,6 +27,7 @@ import com.jude.rollviewpager.adapter.LoopPagerAdapter;
 import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -28,8 +35,12 @@ import java.util.Map;
 
 public class BaseFragment extends Fragment {
     private ArrayList<Map<String,Object>> cinemaData= new ArrayList<Map<String,Object>>();
-    private String userName, password, confirmPassword, phoneNumber;
+    private String userName="a", password="q", confirmPassword, phoneNumber;
 
+    private boolean loginIn = false;
+
+    private int[] showingMovieSmallPosters, notShownMovieSmallPosters;
+    private String[] showingMovieName,notShowMovieName;
 
     public static BaseFragment newInstance(String info) {
         Bundle args = new Bundle();
@@ -45,8 +56,7 @@ public class BaseFragment extends Fragment {
         String tag = getArguments().getString("info");
         View view = null;
         if (tag == "首页") {
-            LinearLayout mGallery1,mGallery2;//1，2分别为热映电影和即将上映的展示框
-            int[] showingMovieSmallPosters, notShownMovieSmallPosters;
+            final LinearLayout mGallery1,mGallery2;//1，2分别为热映电影和即将上映的展示框
 
 
             view = inflater.inflate(R.layout.fragment_home, null);
@@ -84,14 +94,41 @@ public class BaseFragment extends Fragment {
                     R.mipmap.poster_small_deadpool,
                     R.mipmap.poster_small_jueji
             };
+
+            showingMovieName = new String[] {//此处对应上面的海报
+                    "player", "avengers", "deadpool", "jueji"
+            };
+
             for (int i = 0; i < showingMovieSmallPosters.length; i++) {
                 View smallView = inflater.inflate(R.layout.gallery_item, mGallery1, false);
                 ImageView img = (ImageView) smallView.findViewById(R.id.movie_poster);
                 img.setImageResource(showingMovieSmallPosters[i]);
+                Button btn = (Button) smallView.findViewById(R.id.buyTicket);
+
+                final int finalI = i;
                 img.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(getActivity(), "点击跳转电影详情", Toast.LENGTH_SHORT).show();
+                        //此处跳到电影详情
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), MovieDetail.class);
+
+                        String selectedMovieName = showingMovieName[finalI];
+                        intent.putExtra("selectedMovieName", selectedMovieName);
+                        getActivity().startActivity(intent);
+
+                    }
+                });
+
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //此处跳到购票
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), MovieDetail.class);
+
+                        intent.putExtra("selectedMovieName", "?????"+finalI);
+                        getActivity().startActivity(intent);
                     }
                 });
                 mGallery1.addView(smallView);
@@ -134,36 +171,58 @@ public class BaseFragment extends Fragment {
         } else {
             //此处应检验是否登录
             //若为登录则显示一下界面：
-            view = inflater.inflate(R.layout.fragment_not_login, null);
-            Button login,register;
-            login = (Button) view.findViewById(R.id.login);
-            register = (Button) view.findViewById(R.id.register);
+            if(loginIn == false) {
+                view = inflater.inflate(R.layout.fragment_not_login, null);
+                Button login, register;
+                login = (Button) view.findViewById(R.id.login);
+                register = (Button) view.findViewById(R.id.register);
 
-            login.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent();
-                    intent.setClass(getActivity(), SignInActivity.class);
+                login.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), SignInActivity.class);
 
-                    //此处传入数据作检测用，实际应用数据库的账号密码
-                    intent.putExtra("usrNameLogin", userName);
-                    intent.putExtra("passwordLogin", password);
-                    startActivityForResult(intent, 2);
-                }
-            });
+                        //此处传入数据作检测用，实际应用数据库的账号密码
+                        intent.putExtra("usrNameLogin", userName);
+                        intent.putExtra("passwordLogin", password);
+                        startActivityForResult(intent, 2);
+                    }
+                });
 
-            //跳转注册界面
-            register.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent();
-                    intent.setClass(getActivity(), SignUpActivity.class);
-                    startActivityForResult(intent, 1);
-                }
-            });
+                //跳转注册界面
+                register.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), SignUpActivity.class);
+                        startActivityForResult(intent, 1);
+                    }
+                });
+            } else {
+                //登陆成功
+                view = inflater.inflate(R.layout.user_center, null);
+                TextView mView;
+
+
+                //getFragmentManager().beginTransaction().hide(getFragmentManager().findFragmentByTag("我的")).commit();
+
+                mView = (TextView) view.findViewById(R.id.userName);
+                mView.setText(userName);
+                //取消登录
+                Button loginOut;
+                loginOut = (Button) view.findViewById(R.id.loginOut);
+                loginOut.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        loginIn = false;
+                    }
+                });
+            }
         }
         return view;
     }
+
 
     private void initCinema() {//初始化影院信息
         Map<String,Object> item = new HashMap<String,Object>();
@@ -223,7 +282,6 @@ public class BaseFragment extends Fragment {
             return imgs.length;
         }
     }
-
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
@@ -239,10 +297,92 @@ public class BaseFragment extends Fragment {
         if (requestCode == 2) {
             if(resultCode == 2) {
                 Toast.makeText(getActivity(), "登陆成功", Toast.LENGTH_SHORT).show();
+
+                loginIn =true;
+                TextView mView;
+                mView = (TextView) getView().findViewById(R.id.text1);
+                mView.setText("!!!!!");
+                LayoutInflater inflate = getActivity().getLayoutInflater();
+                View view = null;
+                view = inflate.inflate(R.layout.user_center, null);
+
+                final ProgressDialog dialog = ProgressDialog.show(getActivity(), null, "正在加载中。。。");
+                //停1秒
+                new Thread(){
+                    public void run(){
+                        SystemClock.sleep(1000);
+                        dialog.dismiss();
+                    }
+                }.start();
+
+                onResume();
+                /*LayoutInflater inflate = getActivity().getLayoutInflater();
+                View view = null;
+                view = inflate.inflate(R.layout.user_center, null);*/
             } else {
                 Toast.makeText(getActivity(), "登录失败", Toast.LENGTH_SHORT).show();
             }
         }
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        /*
+        LayoutInflater inflater =(LayoutInflater) getActivity().getLayoutInflater();
+        String tag = getArguments().getString("info");
+        View view = null;
+        if(tag == "我的") {
+            //此处应检验是否登录
+            //若为登录则显示一下界面：
+            if (loginIn == false) {
+                Toast.makeText(getActivity(), "1111", Toast.LENGTH_SHORT).show();
+                view = inflater.inflate(R.layout.fragment_not_login, null);
+                Button login, register;
+                login = (Button) view.findViewById(R.id.login);
+                register = (Button) view.findViewById(R.id.register);
+
+                login.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), SignInActivity.class);
+
+                        //此处传入数据作检测用，实际应用数据库的账号密码
+                        intent.putExtra("usrNameLogin", userName);
+                        intent.putExtra("passwordLogin", password);
+                        startActivityForResult(intent, 2);
+                    }
+                });
+
+                //跳转注册界面
+                register.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), SignUpActivity.class);
+                        startActivityForResult(intent, 1);
+                    }
+                });
+            } else {
+
+                Toast.makeText(getActivity(), "22222", Toast.LENGTH_SHORT).show();
+                //登陆成功
+                view = inflater.inflate(R.layout.user_center, null);
+                TextView mView;
+                mView = (TextView) view.findViewById(R.id.userName);
+                mView.setText(userName);
+                //取消登录
+                Button loginOut;
+                loginOut = (Button) view.findViewById(R.id.loginOut);
+                loginOut.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        loginIn = false;
+                    }
+                });
+            }
+        }*/
     }
 }

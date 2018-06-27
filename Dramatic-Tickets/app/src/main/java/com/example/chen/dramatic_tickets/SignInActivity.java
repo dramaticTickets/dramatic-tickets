@@ -1,8 +1,10 @@
 package com.example.chen.dramatic_tickets;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -78,7 +80,6 @@ public class SignInActivity extends AppCompatActivity {
                     if(stringUserName.equals(userNameLogin) && stringPassword.equals(passwordLogin)) {
 
                         resultcode = 2;
-
                     }
                     Intent intent = getIntent();
                     Bundle bundle = new Bundle();

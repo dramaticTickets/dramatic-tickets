@@ -21,6 +21,7 @@ package="com.example.chen.dramatic_tickets">
 
     <activity android:name=".SignUpActivity"></activity>
     <activity android:name=".SignInActivity"></activity>
+    <activity android:name=".MovieDetail"></activity>
 </application>
 
 </manifest>
