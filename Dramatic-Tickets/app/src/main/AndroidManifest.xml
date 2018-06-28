@@ -22,6 +22,15 @@ package="com.example.chen.dramatic_tickets">
     <activity android:name=".SignUpActivity"></activity>
     <activity android:name=".SignInActivity"></activity>
     <activity android:name=".MovieDetail"></activity>
+    <activity android:name=".ChooseCinema"></activity>
+    <activity android:name=".ChooseSessionActivity"></activity>
+    <activity android:name=".ChooseSeatActivity"></activity>
+    <activity android:name=".ConfirmOrder"></activity>
+    <activity android:name=".PaymentSuccess"></activity>
+    <activity android:name=".notShowMovieDetail"></activity>
+    <activity android:name=".ChooseMovie"></activity>
+
+
 </application>
 
 </manifest>

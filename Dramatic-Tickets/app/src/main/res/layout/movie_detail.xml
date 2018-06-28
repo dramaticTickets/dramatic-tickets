@@ -121,6 +121,7 @@
         android:padding="0dp"
         android:layout_margin="0dp"
         android:background="@color/colorAccent"
+        android:id="@+id/buyTicketInMovieDetail"
         android:text="选座购票"
         android:textColor="@color/white"
         android:textSize="22sp"/>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <android.support.constraint.ConstraintLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/title_background"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#f0f0f0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影院名字"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/title_background"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"
+            android:id="@+id/title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cinema_name"
+            android:text="太平洋影院"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_background"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/cinema_address"
+            android:text="番禺区小谷街道贝岗村中二横路1号GOGO新天地商业广场二期二楼"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_width="250dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cinema_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cinema_address"
+            android:background="#000"
+            android:alpha="0.7"
+            android:layout_marginTop="20dp"
+            android:id="@+id/line1"/>
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line1"
+            android:src="@mipmap/poster_small_deadpool"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_chinese_name"
+            android:text="死侍2"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/movie_poster"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/star_rate"
+            android:text="8.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/movie_chinese_name"
+            android:textSize="18sp"
+            android:textColor="#ecc500"
+            android:textStyle="bold"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#f6f6f6"
+            app:tabIndicatorColor="#f00"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="#f00"
+            app:tabTextColor="@android:color/black"
+            app:tabIndicatorHeight="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/star_rate"
+            android:layout_marginTop="5dp"/>
+        <com.example.chen.dramatic_tickets.MyViewPager
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tablayout"
+            android:id="@+id/tab_viewpager"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:clipChildren="false"/>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

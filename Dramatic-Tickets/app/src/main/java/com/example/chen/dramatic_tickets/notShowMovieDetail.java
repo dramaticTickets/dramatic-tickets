@@ -1,19 +1,14 @@
 package com.example.chen.dramatic_tickets;
 
-
 import android.content.Intent;
-import android.graphics.Movie;
+import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-public class MovieDetail extends AppCompatActivity {
+public class notShowMovieDetail extends AppCompatActivity {
 
     String selectedMovieName = null;
 
@@ -30,20 +25,7 @@ public class MovieDetail extends AppCompatActivity {
         }
 
         Button btn = (Button) findViewById(R.id.buyTicketInMovieDetail);
-        clickBuyTicket(btn);
-    }
-
-    //这里跳转到选择影院界面
-    public void clickBuyTicket(Button btn) {
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setClass(MovieDetail.this, ChooseCinema.class);
-
-                intent.putExtra("MovieName", selectedMovieName);
-                MovieDetail.this.startActivity(intent);
-            }
-        });
+        btn.setText("尚未上映");
+        btn.setBackgroundColor(Color.parseColor("#d0d0d0"));
     }
 }

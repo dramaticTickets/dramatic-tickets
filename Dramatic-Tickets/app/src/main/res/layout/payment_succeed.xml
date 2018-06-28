@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/title_background"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/gray0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付成功"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_background"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="19sp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_background"
+        android:text="侏罗纪世界2"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/movie_chinese_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_chinese_name"
+        android:text="20:40"
+        android:alpha="0.7"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:id="@id/ticket_time"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ticket_time"
+        android:text="2018年6月8日"
+        android:alpha="0.7"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:id="@id/ticket_date"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ticket_date"
+        android:text="太平洋影院"
+        android:alpha="0.7"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:id="@id/ticket_cinema"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ticket_cinema"
+        android:text="3号厅"
+        android:alpha="0.7"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:id="@id/ticket_hall"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ticket_hall"
+        android:text="9排3座 9排5座"
+        android:alpha="0.7"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:id="@id/ticket_seats"
+        android:textColor="@color/red"/>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ticket_seats"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"
+        android:alpha="0.7"
+        android:id="@+id/line1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前状态"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:id="@+id/state"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付成功"
+        android:textColor="@color/red"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/line1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+        android:id="@+id/state_succeed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下单时间"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/state"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:id="@+id/payment_time_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-06-09 20:40"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/state_succeed"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+        android:id="@+id/payment_time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实际付款"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/payment_time_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:id="@+id/payment_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89元"
+        android:textColor="@color/red"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/payment_time"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+        android:id="@+id/payment_amount"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:background="@color/colorAccent"
+        android:text="回到主页"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:id="@+id/back_to_home"/>
+
+</android.support.constraint.ConstraintLayout>

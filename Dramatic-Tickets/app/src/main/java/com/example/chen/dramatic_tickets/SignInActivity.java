@@ -35,12 +35,12 @@ public class SignInActivity extends AppCompatActivity {
         mImage= (ImageView) findViewById(R.id.pic2);
 
         Button login = (Button) findViewById(R.id.login);
-        clickRegister(login);
+        clickLogin(login);
     }
 
     //此函数用于检验注册是否合法，然后再传给数据库
-    public void clickRegister(Button register) {
-        register.setOnClickListener(new View.OnClickListener() {
+    public void clickLogin(Button login) {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 int resultcode = 0;

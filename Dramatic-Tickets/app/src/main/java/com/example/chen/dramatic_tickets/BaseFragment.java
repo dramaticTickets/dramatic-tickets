@@ -67,7 +67,9 @@ public class BaseFragment extends Fragment {
             //设置海报轮播透明度
             mRollViewPager.setAnimationDurtion(500);
             //设置海报轮播适配器
-            mRollViewPager.setAdapter(new TestNormalAdapter(mRollViewPager));
+            TestNormalAdapter myAdapter = new TestNormalAdapter(mRollViewPager);
+            mRollViewPager.setAdapter(myAdapter);
+
 
             //设置搜索框监听器
             SearchView searchview = (SearchView) view.findViewById(R.id.searchview);
@@ -123,11 +125,10 @@ public class BaseFragment extends Fragment {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        //此处跳到购票
+                        //此处跳到选择电影详情
                         Intent intent = new Intent();
-                        intent.setClass(getActivity(), MovieDetail.class);
-
-                        intent.putExtra("selectedMovieName", "?????"+finalI);
+                        intent.setClass(getActivity(), ChooseCinema.class);
+                        intent.putExtra("MovieName", showingMovieName[finalI]);
                         getActivity().startActivity(intent);
                     }
                 });
@@ -142,13 +143,26 @@ public class BaseFragment extends Fragment {
                     R.mipmap.poster_small_super,
                     R.mipmap.poster_small_dino
             };
+
+            notShowMovieName = new String[] {//此处对应上面的海报
+                    "jail", "island", "super", "dino"
+            };
+
             for (int i = 0; i < notShownMovieSmallPosters.length; i++) {
                 View smallView = inflater.inflate(R.layout.gallery_no_button, mGallery2, false);
                 ImageView img = (ImageView) smallView.findViewById(R.id.movie_poster);
                 img.setImageResource(notShownMovieSmallPosters[i]);
+
+                final int finalI = i;
                 img.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        Intent intent = new Intent();
+                        intent.setClass(getActivity(), notShowMovieDetail.class);
+
+                        String selectedMovieName = notShowMovieName[finalI];
+                        intent.putExtra("selectedMovieName", selectedMovieName);
+                        getActivity().startActivity(intent);
                         Toast.makeText(getActivity(), "点击跳转电影详情", Toast.LENGTH_SHORT).show();
                     }
                 });
@@ -165,7 +179,13 @@ public class BaseFragment extends Fragment {
             cinemaList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Toast.makeText(getActivity(), "您点击了影院"+(position+1), Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent();
+                    intent.setClass(getActivity(), ChooseMovie.class);
+
+                    String selectCinemaName = cinemaData.get(position).get("name").toString();
+                    intent.putExtra("CinemaName", selectCinemaName);
+                    getActivity().startActivity(intent);
+                    Toast.makeText(getActivity(), "您点击了影院"+selectCinemaName, Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
@@ -269,19 +289,33 @@ public class BaseFragment extends Fragment {
         }
 
         @Override
-        public View getView(ViewGroup container, int position) {
+        public View getView(ViewGroup container, final int position) {
             ImageView view = new ImageView(container.getContext());
             view.setImageResource(imgs[position]);
             view.setScaleType(ImageView.ScaleType.CENTER_CROP);
             view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+            final int nowPosition = position;
+            view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent();
+                    intent.setClass(getActivity(), MovieDetail.class);
+
+                    String selectedMovieName = showingMovieName[nowPosition];
+                    intent.putExtra("selectedMovieName", selectedMovieName);
+                    getActivity().startActivity(intent);
+                }
+            });
             return view;
         }
+
 
         @Override
         public int getRealCount() {
             return imgs.length;
         }
     }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
