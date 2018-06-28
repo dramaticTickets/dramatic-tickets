@@ -1,6 +1,6 @@
 # 16
 ## 一、用例设计
-!(用例图)[https://github.com/dramaticTickets/dramatic-tickets/raw/master/pictures/7_use_case_1.png?raw=true]
+![](https://github.com/dramaticTickets/dramatic-tickets/raw/master/pictures/7_use_case_1.png?raw=true)
 根据用例设计，可以确定以下几个ECB类：
 
 Boundary/UI 类：
@@ -21,7 +21,7 @@ Seat: 该影院上映电影的场次、座位。
 
 ## 二、ECB
 - 顺序图
-!()[https://github.com/zichang06/markdownPics/blob/master/project_%E9%A1%BA%E5%BA%8F%E5%9B%BE.png?raw=true]
+![](https://github.com/zichang06/markdownPics/blob/master/project_%E9%A1%BA%E5%BA%8F%E5%9B%BE.png?raw=true)
 
 - 类图
-!()[https://github.com/zichang06/markdownPics/blob/master/project_%E7%B1%BB%E5%9B%BE.png?raw=true]
+![](https://github.com/zichang06/markdownPics/blob/master/project_%E7%B1%BB%E5%9B%BE.png?raw=true)
