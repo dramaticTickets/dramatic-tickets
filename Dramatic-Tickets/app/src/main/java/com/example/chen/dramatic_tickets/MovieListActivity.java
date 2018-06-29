@@ -12,45 +12,64 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-public class ChooseMovie  extends AppCompatActivity {
-    private ArrayList<Map<String,Object>> MovieData= new ArrayList<Map<String,Object>>();
-    private String CinemaName = null;
+/**
+ * Created by Admin on 2018/6/29.
+ */
 
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.choose_movie);
+public class MovieListActivity extends AppCompatActivity {
 
-        final ListView movieList = (ListView) findViewById(R.id.choose_movie_list);
+    private ArrayList<Map<String,Object>> MovieData= new ArrayList();
+    private String movieName = null;
+
+    @Override
+    protected void onCreate(Bundle savesInstanceState) {
+        super.onCreate(savesInstanceState);
+        setContentView(R.layout.search_movies_list);
+
+        TextView movieInfo;
+
+        final ListView movieList = (ListView) findViewById(R.id.tickets_list);
         initMovie();
 
         TextView mView;
         Bundle extras = getIntent().getExtras();
         if(extras != null) {
-            CinemaName = extras.getString("CinemaName");
+            movieName = extras.getString("movieName");
+            //检查数据库中相同部分unfinished
+
         }
 
 
-        movieList.setAdapter(new SimpleAdapter(ChooseMovie.this,MovieData,R.layout.movie_choose_item,
+        movieList.setAdapter(new SimpleAdapter(MovieListActivity.this,MovieData,R.layout.search_moive_item,
                 new String[]{"movie_chinese_name","director_name","main_actor_name"},new int[]{R.id.movie_chinese_name,R.id.director_name,R.id.main_actor_name}));
 
         movieList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Map<String, Object> temp = MovieData.get(position);
-                Toast.makeText(ChooseMovie.this, "您点击了影院"+CinemaName+"电影名为"+ temp.get("movie_chinese_name").toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MovieListActivity.this, "您点击了电影名为"+ temp.get("movie_chinese_name").toString(), Toast.LENGTH_SHORT).show();
 
+                Intent intent = new Intent();
+                intent.setClass(MovieListActivity.this, ChooseCinema.class);
+
+                intent.putExtra("MovieName", temp.get("movie_chinese_name").toString());
+                MovieListActivity.this.startActivity(intent);
+                /*
                 //此处可以得到电影名和影院名传出
                 Intent intent = new Intent();
-                intent.setClass(ChooseMovie.this, ChooseSessionActivity.class);
+                intent.setClass(MovieListActivity.this, ChooseSessionActivity.class);
 
-                intent.putExtra("CinemaName", CinemaName);
+                intent.putExtra("CinemaName", movieName);
                 intent.putExtra("MovieName", temp.get("movie_chinese_name").toString());
-                ChooseMovie.this.startActivity(intent);
+                MovieListActivity.this.startActivity(intent);
+                */
+
             }
         });
-
+        Toast.makeText(MovieListActivity.this, "11111", Toast.LENGTH_SHORT).show();
     }
 
     private void initMovie() {//初始化影院信息

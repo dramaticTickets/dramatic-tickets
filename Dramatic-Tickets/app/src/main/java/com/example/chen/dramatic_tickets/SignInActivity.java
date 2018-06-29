@@ -19,18 +19,19 @@ import java.util.regex.Pattern;
 
 public class SignInActivity extends AppCompatActivity {
     ImageView mImage;
-    String userNameLogin, passwordLogin;
+    String userNameLogin = "a", passwordLogin = "q";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
+        /*测试是否检测成功
         Bundle extras = getIntent().getExtras();
         if(extras != null) {
             userNameLogin = extras.getString("usrNameLogin");
             passwordLogin = extras.getString("passwordLogin");
-        }
+        }*/
 
         mImage= (ImageView) findViewById(R.id.pic2);
 
@@ -83,6 +84,11 @@ public class SignInActivity extends AppCompatActivity {
                     }
                     Intent intent = getIntent();
                     Bundle bundle = new Bundle();
+                    bundle.putString("usrName", stringUserName);
+                    intent.putExtras(bundle);
+                    //此处需要数据库传回来的值处理
+                    //bundle.putString("phoneNumber", stringPhoneNumber);
+                    //bundle.putString("imagePath", imagePath);
                     SignInActivity.this.setResult(resultcode, intent);
                     SignInActivity.this.finish();
                 }

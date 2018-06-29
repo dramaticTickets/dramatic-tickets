@@ -2,35 +2,39 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.example.chen.dramatic_tickets">
 
-<application
-    android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:supportsRtl="true"
-    android:theme="@style/AppTheme"
-    android:hardwareAccelerated="false"
-    android:largeHeap="true">
-    <activity android:name=".HomeActivity"
-        android:windowSoftInputMode="adjustPan">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+        <activity android:name=".HomeActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-    <activity android:name=".SignUpActivity"></activity>
-    <activity android:name=".SignInActivity"></activity>
-    <activity android:name=".MovieDetail"></activity>
-    <activity android:name=".ChooseCinema"></activity>
-    <activity android:name=".ChooseSessionActivity"></activity>
-    <activity android:name=".ChooseSeatActivity"></activity>
-    <activity android:name=".ConfirmOrder"></activity>
-    <activity android:name=".PaymentSuccess"></activity>
-    <activity android:name=".notShowMovieDetail"></activity>
-    <activity android:name=".ChooseMovie"></activity>
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".MovieDetail"></activity>
+        <activity android:name=".ChooseCinema"></activity>
+        <activity android:name=".ChooseSessionActivity"></activity>
+        <activity android:name=".ChooseSeatActivity"></activity>
+        <activity android:name=".ConfirmOrder"></activity>
+        <activity android:name=".PaymentSuccess"></activity>
+        <activity android:name=".notShowMovieDetail"></activity>
+        <activity android:name=".ChooseMovie"></activity>
+        <activity android:name=".LoginOrRegister"></activity>
+        <activity android:name=".MovieListActivity"></activity>
+        <activity android:name=".CinemaListActivity"></activity>
 
-
-</application>
+    </application>
 
 </manifest>
