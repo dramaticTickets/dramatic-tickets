@@ -1,4 +1,8 @@
 # README
+
+## 项目简介
+DramaticTickets互联网电影票售票系统
+
 ## Dashboard
 - 1、[About](https://dramatictickets.github.io/dashboard/ABOUT)（项目规划）
 - 2、[Team profile](https://dramatictickets.github.io/dashboard/documents/1_responsibility_assignment)（团队组建）
