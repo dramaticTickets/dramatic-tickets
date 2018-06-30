@@ -108,6 +108,7 @@
 - [15331296-FinalReport]()
 - [15331010-FinalReport](https://cicicigar.github.io/2018/06/30/System-s-Analysis-and-Design-FinalReport/)
 - [15331048-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331048_Final%20Report.md)
+- [15331296-FinalReport](https://blog.csdn.net/a2487304484/article/details/80871414)
 
 ## Iteration
 
