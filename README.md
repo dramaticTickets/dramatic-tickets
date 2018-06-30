@@ -1,4 +1,48 @@
-README
+# README
+## Dashboard
+- 1、[About](https://dramatictickets.github.io/dashboard/ABOUT)（项目规划）
+- 2、[Team profile](https://dramatictickets.github.io/dashboard/documents/1_responsibility_assignment)（团队组建）
+- 3、[Investigation](https://dramatictickets.github.io/dashboard/documents/3_Product_survey_report)（项目前期调研）
+- 4、[Vision](https://dramatictickets.github.io/dashboard/documents/4_vision)（项目愿景）
+- 5、[Product Backlog](https://dramatictickets.github.io/dashboard/documents/5_product_backlog_initial) （产品特性）
+- 6、Requirement specification（需求规格说明）
+  - 6.1 [Usecase Diagram](https://dramatictickets.github.io/dashboard/documents/8_use_case)（用例图）
+  - 6.2 [Use Cases](https://dramatictickets.github.io/dashboard/documents/8_use_case)（用例+活动图）
+  - 6.3 [Domian Model](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/10_domain_model.md)（领域模型）
+  - 6.4 [State Model](https://dramatictickets.github.io/dashboard/documents/11_state_model)（状态模型）
+  - 6.5 [System Sequence Diagram](https://dramatictickets.github.io/dashboard/documents/12_System_Sequence_Diagram)（功能模型）
+- 7、Design（设计）
+  - 7.1 UI design
+    - [XX 用例 UI设计](https://dramatictickets.github.io/dashboard/documents/7_1_Design)
+  - 7.2 Database design
+    - 7.2.1 [用户及权限系统数据库设计](https://dramatictickets.github.io/dashboard/documents/7_2_Design)
+    - 7.2.2 XX子系统数据课设计
+    - 7.2.x [第三方数据评审结果](https://github.com/dramaticTickets/dramatic-tickets/issues/2)
+  - [7.3 API 设计](https://dramatictickets.github.io/dashboard/documents/7_3_Design)
+  - 7.4 [Software Architecture Document](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/14_Software_Architecture_Document.md)
+  - 7.5 [用例设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/16_ECB_sequence%20class_diagram.md)
+- 8、生产规范与指南
+  - 8.1 [XX 代码规范](https://dramatictickets.github.io/dashboard/documents/9_code_style)
+  - 8.2 [REST API 设计规范](https://dramatictickets.github.io/dashboard/documents/7_3_Design)
+  - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/15_Catalog_design_Logical_architecture_ECB.md)
+  - 8.4 [部署项目的Readme]()
+- 9、[Supplementary Requirements](https://dramatictickets.github.io/dashboard/documents/13_Supplementary_Specification)
+- 10、[Software Architecture Document](https://dramatictickets.github.io/dashboard/documents/14_Software_Architecture_Document)
+- X1 meet_recording
+  - [inception meeting (2018/3/23, 2018/3/30, 2018/4/10)](https://dramatictickets.github.io/dashboard/documents/2_meet_recordings)
+- X2 Tech/Work Report
+  - [15331034-工具使用方法](https://chenxy296.github.io/week%203/2018/04/15/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.html)
+  - [15331009-个人学习报告](https://zichang06.github.io/2018/06/29/flask_learing/#more)
+  - [15331026-工具使用介绍](https://dramatictickets.github.io/dashboard/documents/Tech_Work_Report/15331026_%E9%99%88%E6%A5%A0_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D)
+  - [15331027-工具学习使用](https://dramatictickets.github.io/dashboard/documents/Tech_Work_Report/15331027_%E9%99%88%E7%A5%BA%E5%8D%8E_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
+  - [15331296-个人学习报告](https://dramatictickets.github.io/dashboard/documents/Tech_Work_Report/15331296_%E7%8E%8B%E5%87%8C%E9%94%8B_%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A)
+  - [15331010-个人学习报告](https://cicicigar.github.io/2018/04/14/SpringMVC%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/)
+- X3 FInal Report
+  - [15331009-FinalReport](https://zichang06.github.io/2018/06/29/Final_Report/#more)
+- XX 建模练习
+  - XX1 [饿了么外卖应用](https://dramatictickets.github.io/dashboard/documents/modeling_training/1_%E9%A5%BF%E4%BA%86%E4%B9%88%E5%A4%96%E5%8D%96app)
+  - XX2 [建模要求](https://dramatictickets.github.io/dashboard/documents/modeling_training/2_%E5%BB%BA%E6%A8%A1%E8%A6%81%E6%B1%82)
+  - XX3 [建模者答案与评价](https://dramatictickets.github.io/dashboard/documents/modeling_training/3_%E9%83%A8%E5%88%86%E7%AD%94%E6%A1%88%E5%8F%8A%E8%AF%84%E4%BB%B7)
 
 ## 项目分工及进展
 
