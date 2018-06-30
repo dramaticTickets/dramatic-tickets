@@ -120,7 +120,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/star_rate"
             android:layout_marginTop="5dp"/>
-        <com.example.chen.dramatic_tickets.MyViewPager
+        <com.example.chen.dramatic_tickets.Adapter.MyViewPager
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tablayout"

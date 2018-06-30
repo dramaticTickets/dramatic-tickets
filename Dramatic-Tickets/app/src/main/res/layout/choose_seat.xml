@@ -85,7 +85,7 @@
     </android.support.constraint.ConstraintLayout>
 
 
-    <com.example.chen.dramatic_tickets.SeatTable
+    <com.example.chen.dramatic_tickets.ChooseSeat.SeatTable
         android:id="@+id/seatView"
         android:background="#ffffff"
         android:layout_below="@+id/detail"

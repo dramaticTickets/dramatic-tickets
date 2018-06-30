@@ -1,20 +1,16 @@
-package com.example.chen.dramatic_tickets;
+package com.example.chen.dramatic_tickets.MainPage;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.SearchView;
-import android.text.method.MovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -24,24 +20,30 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.chen.dramatic_tickets.ChooseActivity.ChooseCinema;
+import com.example.chen.dramatic_tickets.ChooseActivity.ChooseMovie;
+import com.example.chen.dramatic_tickets.SearchActivity.CinemaListActivity;
+import com.example.chen.dramatic_tickets.LoginAndRegister.LoginOrRegister;
+import com.example.chen.dramatic_tickets.ChooseActivity.MovieDetail;
+import com.example.chen.dramatic_tickets.SearchActivity.MovieListActivity;
+import com.example.chen.dramatic_tickets.Adapter.MyRollPagerView;
+import com.example.chen.dramatic_tickets.PersonalHistory.PersonalTicketHistory;
+import com.example.chen.dramatic_tickets.R;
+import com.example.chen.dramatic_tickets.ChooseActivity.notShowMovieDetail;
 import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.LoopPagerAdapter;
-import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 
 import java.util.ArrayList;
-import java.util.BitSet;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static com.example.chen.dramatic_tickets.SignUpActivity.dip2px;
+import static com.example.chen.dramatic_tickets.LoginAndRegister.SignUpActivity.dip2px;
 
 
 public class BaseFragment extends Fragment {
     private ArrayList<Map<String,Object>> cinemaData= new ArrayList<Map<String,Object>>();
-    private String userName="a", password="q", phoneNumber, nickNmae;
+    private String userName="a", password="q", phoneNumber="13719341638", nickNmae;
     String imagePath;
 
     private boolean loginSuccess = false;
@@ -109,7 +111,7 @@ public class BaseFragment extends Fragment {
             };
 
             showingMovieName = new String[] {//此处对应上面的海报
-                    "player", "fuchouzhe", "deadpool", "jueji"
+                    "头号玩家", "复仇者联盟", "死侍", "爵迹"
             };
 
             for (int i = 0; i < showingMovieSmallPosters.length; i++) {
@@ -128,6 +130,8 @@ public class BaseFragment extends Fragment {
 
                         String selectedMovieName = showingMovieName[finalI];
                         intent.putExtra("selectedMovieName", selectedMovieName);
+                        final String pn = phoneNumber;
+                        intent.putExtra("phoneNumber", pn);
                         getActivity().startActivity(intent);
 
                     }
@@ -139,6 +143,9 @@ public class BaseFragment extends Fragment {
                         //此处跳到选择电影详情
                         Intent intent = new Intent();
                         intent.setClass(getActivity(), ChooseCinema.class);
+
+                        final String pn = phoneNumber;
+                        intent.putExtra("phoneNumber", pn);
                         intent.putExtra("MovieName", showingMovieName[finalI]);
                         getActivity().startActivity(intent);
                     }
@@ -156,7 +163,7 @@ public class BaseFragment extends Fragment {
             };
 
             notShowMovieName = new String[] {//此处对应上面的海报
-                    "jail", "island", "super", "dino"
+                    "深海越狱","金银岛", "超人总动员", "侏罗纪世界2"
             };
 
             for (int i = 0; i < notShownMovieSmallPosters.length; i++) {
@@ -174,7 +181,6 @@ public class BaseFragment extends Fragment {
                         String selectedMovieName = notShowMovieName[finalI];
                         intent.putExtra("selectedMovieName", selectedMovieName);
                         getActivity().startActivity(intent);
-                        Toast.makeText(getActivity(), "点击跳转电影详情", Toast.LENGTH_SHORT).show();
                     }
                 });
                 mGallery2.addView(smallView);
@@ -216,7 +222,6 @@ public class BaseFragment extends Fragment {
                     String selectCinemaName = cinemaData.get(position).get("name").toString();
                     intent.putExtra("CinemaName", selectCinemaName);
                     getActivity().startActivity(intent);
-                    Toast.makeText(getActivity(), "您点击了影院"+selectCinemaName, Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
@@ -418,12 +423,13 @@ public class BaseFragment extends Fragment {
         super.onActivityResult(requestCode, resultCode, intent);
         if (requestCode == 1) {
             switch (resultCode) {
-                //这里是登陆回跳
+                //这里是登录回跳
                 case 1:{
                     userName = intent.getStringExtra("usrName").toString();
                     //此处需要数据库传回来的值处理
                     imagePath = intent.getStringExtra("imagePath").toString();
                     phoneNumber = intent.getStringExtra("phoneNumber").toString();
+
                     nickNmae = intent.getStringExtra("nickNmae").toString();
 
                     TextView mView;
@@ -433,6 +439,12 @@ public class BaseFragment extends Fragment {
                     mView = (TextView) getView().findViewById(R.id.pensonalSignature);
                     mView.setText("账号:"+userName);
                     mView.setVisibility(View.VISIBLE);
+                    Bitmap bitmap1 = readBitmap(getContext(), imagePath);
+                    bitmap1 = setImgSize(bitmap1,400,400);
+
+                    ImageView imageView;
+                    imageView = (ImageView) getView().findViewById(R.id.headPortrait);
+                    imageView.setImageBitmap(bitmap1);
 
                     loginSuccess = true;
                     break;

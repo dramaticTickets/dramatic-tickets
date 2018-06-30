@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:focusable="true"
         android:focusableInTouchMode="true">
-        <com.example.chen.dramatic_tickets.MyRollPagerView
+        <com.example.chen.dramatic_tickets.Adapter.MyRollPagerView
             android:id="@+id/roll_view_pager"
             android:layout_width="match_parent"
             android:layout_height="180dp"
@@ -37,7 +37,7 @@
             android:layout_marginLeft="18dp"/>
 
 
-        <com.example.chen.dramatic_tickets.MyHorizontalScrollView
+        <com.example.chen.dramatic_tickets.Adapter.MyHorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_gravity="center_vertical"
@@ -51,7 +51,7 @@
                 android:layout_gravity="center_vertical"
                 android:orientation="horizontal" >
             </LinearLayout>
-        </com.example.chen.dramatic_tickets.MyHorizontalScrollView>
+        </com.example.chen.dramatic_tickets.Adapter.MyHorizontalScrollView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
             android:textColor="@color/black"
             android:layout_marginLeft="18dp"/>
 
-        <com.example.chen.dramatic_tickets.MyHorizontalScrollView
+        <com.example.chen.dramatic_tickets.Adapter.MyHorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_gravity="center_vertical"
@@ -75,6 +75,6 @@
                 android:layout_gravity="center_vertical"
                 android:orientation="horizontal" >
             </LinearLayout>
-        </com.example.chen.dramatic_tickets.MyHorizontalScrollView>
+        </com.example.chen.dramatic_tickets.Adapter.MyHorizontalScrollView>
     </LinearLayout>
 </ScrollView>

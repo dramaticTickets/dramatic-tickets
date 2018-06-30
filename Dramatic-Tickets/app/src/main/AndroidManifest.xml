@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.example.chen.dramatic_tickets">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_movie_pink_400_24dp"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:hardwareAccelerated="false"
         android:largeHeap="true">
-        <activity android:name=".HomeActivity"
+        <activity android:name=".StartPoster"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,19 +21,23 @@ package="com.example.chen.dramatic_tickets">
             </intent-filter>
         </activity>
 
-        <activity android:name=".SignUpActivity"></activity>
-        <activity android:name=".SignInActivity"></activity>
-        <activity android:name=".MovieDetail"></activity>
-        <activity android:name=".ChooseCinema"></activity>
-        <activity android:name=".ChooseSessionActivity"></activity>
-        <activity android:name=".ChooseSeatActivity"></activity>
-        <activity android:name=".ConfirmOrder"></activity>
-        <activity android:name=".PaymentSuccess"></activity>
-        <activity android:name=".notShowMovieDetail"></activity>
-        <activity android:name=".ChooseMovie"></activity>
-        <activity android:name=".LoginOrRegister"></activity>
-        <activity android:name=".MovieListActivity"></activity>
-        <activity android:name=".CinemaListActivity"></activity>
+
+        <activity android:name=".MainPage.HomeActivity"></activity>
+        <activity android:name=".LoginAndRegister.SignUpActivity"></activity>
+        <activity android:name=".LoginAndRegister.SignInActivity"></activity>
+        <activity android:name=".ChooseActivity.MovieDetail"></activity>
+        <activity android:name=".ChooseActivity.ChooseCinema"></activity>
+        <activity android:name=".ChooseSession.ChooseSessionActivity"></activity>
+        <activity android:name=".ChooseSeat.ChooseSeatActivity"></activity>
+        <activity android:name=".PayActivity.ConfirmOrder"></activity>
+        <activity android:name=".PayActivity.PaymentSuccess"></activity>
+        <activity android:name=".ChooseActivity.notShowMovieDetail"></activity>
+        <activity android:name=".ChooseActivity.ChooseMovie"></activity>
+        <activity android:name=".LoginAndRegister.LoginOrRegister"></activity>
+        <activity android:name=".SearchActivity.MovieListActivity"></activity>
+        <activity android:name=".SearchActivity.CinemaListActivity"></activity>
+        <activity android:name=".PersonalHistory.PersonalTicketDetail"></activity>
+        <activity android:name=".PersonalHistory.PersonalTicketHistory"></activity>
 
     </application>
 

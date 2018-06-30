@@ -1,18 +1,15 @@
-package com.example.chen.dramatic_tickets;
+package com.example.chen.dramatic_tickets.LoginAndRegister;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.chen.dramatic_tickets.R;
 
 public class LoginOrRegister extends AppCompatActivity {
     ImageView mImage;
@@ -95,6 +92,8 @@ public class LoginOrRegister extends AppCompatActivity {
                         Bundle bundle = new Bundle();
                         bundle.putString("usrName", stringUserName);
                         bundle.putString("phoneNumber", stringPhoneNumber);
+
+                        Log.i("ADD1",stringPhoneNumber);
                         bundle.putString("imagePath", imagePath);
                         bundle.putString("nickNmae", nickNmae);
 

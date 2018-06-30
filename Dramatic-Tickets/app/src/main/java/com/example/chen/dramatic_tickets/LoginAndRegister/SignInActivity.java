@@ -1,10 +1,7 @@
-package com.example.chen.dramatic_tickets;
+package com.example.chen.dramatic_tickets.LoginAndRegister;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -12,9 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.chen.dramatic_tickets.R;
 import com.example.chen.dramatic_tickets.factory.ServiceFactory;
 import com.example.chen.dramatic_tickets.model.User;
 import com.example.chen.dramatic_tickets.service.DramaticService;
@@ -210,7 +207,6 @@ public class SignInActivity extends AppCompatActivity {
                     @Override
                     public void onNext(User user) {
 
-                        Toast.makeText(SignInActivity.this, "111", Toast.LENGTH_SHORT).show();
                         success = true;
                     }
                 });
