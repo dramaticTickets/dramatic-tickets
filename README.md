@@ -103,7 +103,7 @@
 - [15331034-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331034_Final_Report.md)
 - [15331009-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331009_Final_Report.md)
 - [15331026-FinalReport](https://blog.csdn.net/sysu_cn/article/details/80868173)
-- [15331027-FinalReport]()
+- [15331027-FinalReport](https://blog.csdn.net/SYSU_Chan/article/details/80869600)
 - [15331296-FinalReport]()
 - [15331010-FinalReport](https://cicicigar.github.io/2018/06/30/System-s-Analysis-and-Design-FinalReport/)
 - [15331048-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331048_Final%20Report.md)
