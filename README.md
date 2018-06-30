@@ -38,7 +38,14 @@ README
 - [15331048-技术学习报告](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331048_%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A.md)
 
 
-
+### Final Report
+- [15331034-FinalReport]()
+- [15331009-FinalReport]()
+- [15331026-FinalReport]()
+- [15331027-FinalReport]()
+- [15331296-FinalReport]()
+- [15331010-FinalReport]()
+- [15331048-FinalReport]()
 
 ## Iteration
 
