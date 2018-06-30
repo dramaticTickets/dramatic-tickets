@@ -57,6 +57,7 @@
   - [15331026-FinalReport](https://blog.csdn.net/sysu_cn/article/details/80868173)
   - [15331027-FinalReport](https://blog.csdn.net/SYSU_Chan/article/details/80869600)
   - [15331034-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331034_Final_Report.md)
+  - [15331296-FinalReport](https://blog.csdn.net/a2487304484/article/details/80871414)
 - XX 建模练习
   - XX1 [饿了么外卖应用](https://dramatictickets.github.io/dashboard/documents/modeling_training/1_%E9%A5%BF%E4%BA%86%E4%B9%88%E5%A4%96%E5%8D%96app)
   - XX2 [建模要求](https://dramatictickets.github.io/dashboard/documents/modeling_training/2_%E5%BB%BA%E6%A8%A1%E8%A6%81%E6%B1%82)
