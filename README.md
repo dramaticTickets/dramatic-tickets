@@ -2,14 +2,13 @@
 
 ## 项目简介
 - DramaticTickets互联网电影票售票系统
-
-  DramaticTickets是一款基于安卓平台的电影订票手机软件，提供丰富的正在热映和即将上映的电影资讯信息，可根据名称搜索影院、电影，并分别进入购票选座页面，完成支付后可在个人页面查看已购订单。
-  <div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/7.jpg?raw=true" width="250px" />
-  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/3.jpg?raw=true" width="250px" />
-  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" /></div>
-  <div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/9.jpg?raw=true" width="250px" />
-  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/10.jpg?raw=true" width="250px" />
-  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/12.jpg?raw=true" width="250px" /></div>
+DramaticTickets是一款基于安卓平台的电影订票手机软件，提供丰富的正在热映和即将上映的电影资讯信息，可根据名称搜索影院、电影，并分别进入购票选座页面，完成支付后可在个人页面查看已购订单。
+<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/7.jpg?raw=true" width="250px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/3.jpg?raw=true" width="250px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" /></div>
+<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/9.jpg?raw=true" width="250px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/10.jpg?raw=true" width="250px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/12.jpg?raw=true" width="250px" /></div>
 
 ## Dashboard
 - 1、[About](https://dramatictickets.github.io/dashboard/ABOUT)（项目规划）
@@ -50,7 +49,7 @@
   - [15331296-个人学习报告](https://dramatictickets.github.io/dashboard/documents/Tech_Work_Report/15331296_%E7%8E%8B%E5%87%8C%E9%94%8B_%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A)
   - [15331010-个人学习报告](https://cicicigar.github.io/2018/04/14/SpringMVC%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/)
 - X3 FInal Report
-  - [15331009-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331009_Final_Report.md)
+  - [15331009-FinalReport](https://zichang06.github.io/2018/06/29/Final_Report/#more)
   - [15331048-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331048_Final%20Report.md)
 - XX 建模练习
   - XX1 [饿了么外卖应用](https://dramatictickets.github.io/dashboard/documents/modeling_training/1_%E9%A5%BF%E4%BA%86%E4%B9%88%E5%A4%96%E5%8D%96app)
@@ -97,7 +96,7 @@
 
 ### Final Report
 - [15331034-FinalReport]()
-- [15331009-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331009_Final_Report.md)
+- [15331009-FinalReport]()
 - [15331026-FinalReport]()
 - [15331027-FinalReport]()
 - [15331296-FinalReport]()
