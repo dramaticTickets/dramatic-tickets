@@ -2,6 +2,12 @@
 
 ## 项目简介
 DramaticTickets互联网电影票售票系统
+<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/7.jpg?raw=true" width="300px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/3.jpg?raw=true" width="300px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="300px" /></div>
+<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/9.jpg?raw=true" width="300px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/10.jpg?raw=true" width="300px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/12.jpg?raw=true" width="300px" /></div>
 
 ## Dashboard
 - 1、[About](https://dramatictickets.github.io/dashboard/ABOUT)（项目规划）
