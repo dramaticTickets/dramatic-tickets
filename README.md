@@ -96,7 +96,7 @@ DramaticTickets是一款基于安卓平台的电影订票手机软件，提供�
 
 ### Final Report
 - [15331034-FinalReport]()
-- [15331009-FinalReport]()
+- [15331009-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331009_Final_Report.md)
 - [15331026-FinalReport]()
 - [15331027-FinalReport]()
 - [15331296-FinalReport]()
