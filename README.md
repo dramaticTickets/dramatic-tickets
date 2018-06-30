@@ -2,13 +2,15 @@
 
 ## 项目简介
 - DramaticTickets互联网电影票售票系统
-DramaticTickets是一款基于安卓平台的电影订票手机软件，提供丰富的正在热映和即将上映的电影资讯信息，可根据名称搜索影院、电影，并分别进入购票选座页面，完成支付后可在个人页面查看已购订单。
-<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/7.jpg?raw=true" width="250px" />
-<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/3.jpg?raw=true" width="250px" />
-<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" /></div>
-<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/9.jpg?raw=true" width="250px" />
-<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/10.jpg?raw=true" width="250px" />
-<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/12.jpg?raw=true" width="250px" /></div>
+
+  > DramaticTickets是一款基于安卓平台的电影订票手机软件，提供丰富的正在热映和即将上映的电影资讯信息，可根据名称搜索影院、电影，并分别进入购票选座页面，完成支付后可在个人页面查看已购订单。
+
+  <div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/7.jpg?raw=true" width="250px" />
+  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/3.jpg?raw=true" width="250px" />
+  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" /></div>
+  <div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/9.jpg?raw=true" width="250px" />
+  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/10.jpg?raw=true" width="250px" />
+  <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/12.jpg?raw=true" width="250px" /></div>
 
 ## Dashboard
 - 1、[About](https://dramatictickets.github.io/dashboard/ABOUT)（项目规划）
