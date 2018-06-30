@@ -151,10 +151,13 @@ public class TabFragment extends Fragment {
         final String houtianS = (hotian.get(Calendar.MONTH) + 1)+"月" + hotian.get(Calendar.DAY_OF_MONTH) + "日";
 
         if (tag == "jintian") {
-            for(int i = 0; i < dataNow.size(); i++) {
+
+            int j = dataNow.size();
+            for(int i = 0; i < j; i++) {
                 dataNow.remove(0);
             }
             for(int i= 0; i < length; i++) {
+                Log.i("asd", todayI +""+date[i]);
                 if(todayI == date[i]) {
                     Map<String, Object> temp = new LinkedHashMap<>();
                     temp.put("startTime", startTimeD[i]);
@@ -203,16 +206,20 @@ public class TabFragment extends Fragment {
                 }
             });
         } else if (tag == "mingtian") {
-            for(int i = 0; i < dataNow.size(); i++) {
+            int j = dataNow.size();
+            for(int i = 0; i < j; i++) {
                 dataNow.remove(0);
             }
             for(int i= 0; i < length; i++) {
                 if(mingtianI == date[i]) {
+                    Log.i("asd", mingtianI +""+date[i]);
                     Map<String, Object> temp = new LinkedHashMap<>();
                     temp.put("startTime", startTimeD[i]);
                     temp.put("LeaveTime", LeaveTimeD[i]);
                     temp.put("tinghao", tinghaoD[i]);
                     temp.put("price", priceD[i]);
+
+                    Log.i("asd", startTimeD[i]+""+LeaveTimeD[i] +""+tinghaoD[i]+"");
                     dataNow.add(temp);
                     myAdapter.notifyDataSetChanged();
                 }
@@ -248,7 +255,9 @@ public class TabFragment extends Fragment {
                 }
             });
         } else {
-            for(int i = 0; i < dataNow.size(); i++) {
+
+            int j = dataNow.size();
+            for(int i = 0; i < j; i++) {
                 dataNow.remove(0);
             }
             for(int i= 0; i < length; i++) {
