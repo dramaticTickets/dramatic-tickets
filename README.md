@@ -72,7 +72,6 @@ DramaticTickets互联网电影票售票系统
 | [Supplementary Requirements](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/13_Supplementary_Specification.md) |     15331009、15331034、15331048      |
 | [Software Architecture Document ](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/14_Software_Architecture_Document.md) | 15331010、15331026、15331027、15331296 |
 | [ 建模练习 ](https://github.com/dramaticTickets/dramatic-tickets/tree/master/documents/Modeling_Training) |                                     |
-|              [ ECB用例设计 ](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/16_ECB_sequence%20class_diagram.md)               |              15331009               |
 | [框架目录设计与逻辑架构与 ECB 的关系](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/15_Catalog_design_Logical_architecture_ECB.md) |              153310034              |
 
 ### Tech/Work Report
