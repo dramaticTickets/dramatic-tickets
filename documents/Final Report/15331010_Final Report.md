@@ -9,27 +9,28 @@ tags: [homework, System's Analysis and Design]
    在本次项目中，我主要参与UI方面的设计，资料收集和平时作业的画图文档，在代码方面没有什么贡献，感谢EdwardC996，CN96，Wanglf98 几位大佬带飞，还有chenxy296，czjcssy，zichang06几位大佬的认真负责。
    
  - PSP 2.1 统计表
-    PSP 2.1 | Personal Software Process | StagesTime (%) | document 
-    :-: | :-: | :-: | :-: 
-    **Planning** | **计划** | **13 %** | **0** 
-    Estimate | 估计这个任务需要多少时间 | 13 | 0 
-    **Development** | **开发** | **78 %** | **4** 
-    Analysis | 需求分析 (包括学习新技术) | 27 | 1 
-    Design Spec | 生成设计文档 | 30 | 1 
-    Design Review | 设计复审 (和同事审核设计文档) | 2 | 0 
-    Coding Standard | 代码规范 (为目前的开发制定合适的规范) | 3 | 1 
-    Design | 具体设计 | 14 | 1 
-    Coding | 具体编码 | 0 | 0 
-    Code Review | 代码复审 | 0 | 0 |
-    Test | 测试（自我测试，修改代码，提交修改）| 2 | 0 
-    **Reporting** | **报告** | **9 %** | 0 
-    Test Report | 测试报告 | 0 | 0 
-    Size Measurement | 计算工作量 | 0 | 0 
-    Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划 | 9 | 0 
-    **Summary** | **合计** | **100%** | **5** 
+
+PSP2.1 | Personal Software Process Stages | Time (%)| document 
+:-: | :-: | :-: |:-: 
+**Planning** | **计划** | **13** | **0** 
+Estimate |  估计这个任务需要多少时间 | 13 | 0 
+**Development** | **开发** | **78** | **4** 
+Analysis | 需求分析 (包括学习新技术) | 27 | 1 
+Design Spec | 生成设计文档 | 30 | 1 
+Design Review | 设计复审 (和同事审核设计文档) | 2 | 0 
+Coding Standard |  代码规范 (为目前的开发制定合适的规范) | 3 | 1 
+Design |  具体设计 | 14 | 1 
+Coding | 具体编码 | 0 | 0 
+Code Review| 代码复审 | 0 | 0 
+Test| 测试（自我测试，修改代码，提交修改） | 2 | 0 
+**Reporting**| **报告** | 9 | 0 
+Test Report| 测试报告 | 0 | 0 
+Size Measurement| 计算工作量 | 0 | 
+Postmortem & Process Improvement Plan| 事后总结, 并提出过程改进计划 | 9 | 0 
+**Summary**| **合计**| **100** | **5** 
    
  - 个人分支的 GIT 统计报告
-   ![github统计](https://raw.githubusercontent.com/Cicicigar/markdown_pics/master/dragit.png)
+   ![github统计](https://raw.githubusercontent.com/Cicicigar/Cicicigar.github.io/master/pics/dramaticgithub.png)
    
  - 自认为最得意/或有价值/或有苦劳的工作清单，含简短说明
    UI方面的设计，资料收集和平时作业的画图文档
