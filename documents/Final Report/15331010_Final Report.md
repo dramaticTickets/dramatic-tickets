@@ -36,4 +36,4 @@ Postmortem & Process Improvement Plan| 事后总结, 并提出过程改进计划
    UI方面的设计，资料收集和平时作业的画图文档
    
  - 个人的技术类、项目管理类博客清单
-   [ SpringMVC 学习报告](https://cicicigar.github.io/2018/04/14/SpringMVC学习报告/)
+   [ SpringMVC 学习报告](https://cicicigar.github.io/2018/04/14/15331010_SpringMVC学习报告/)

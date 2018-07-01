@@ -48,7 +48,7 @@
   - [15331026-工具使用介绍](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331026_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D.md)
   - [15331027-工具学习使用](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331027_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md)
   - [15331296-个人学习报告](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331296_%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A.md)
-  - [15331010-个人学习报告](https://cicicigar.github.io/2018/04/14/SpringMVC%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/)
+  - [15331010-个人学习报告](https://cicicigar.github.io/2018/04/14/15331010_SpringMVC学习报告/)
 - X3 FInal Report
   - [15331009-FinalReport](https://zichang06.github.io/2018/06/29/Final_Report/#more)
   - [15331048-FinalReport](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Final%20Report/15331048_Final%20Report.md)
