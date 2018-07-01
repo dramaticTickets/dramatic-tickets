@@ -45,7 +45,7 @@
 - X2 Tech/Work Report
   - [15331034-工具使用方法](https://chenxy296.github.io/week%203/2018/04/15/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.html)
   - [15331009-个人学习报告](https://zichang06.github.io/2018/06/29/flask_learing/#more)
-  - [15331026-工具使用介绍](https://dramatictickets.github.io/dashboard/documents/Tech_Work_Report/15331026_%E9%99%88%E6%A5%A0_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D)
+  - [15331026-工具使用介绍](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331026_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D.md)
   - [15331027-工具学习使用](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331027_%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md)
   - [15331296-个人学习报告](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/Tech_Work_Report/15331296_%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A.md)
   - [15331010-个人学习报告](https://cicicigar.github.io/2018/04/14/SpringMVC%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/)
