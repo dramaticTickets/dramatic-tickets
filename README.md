@@ -31,16 +31,15 @@
     - 7.2.1 [用户及权限系统数据库设计](https://dramatictickets.github.io/dashboard/documents/7_2_Design)
     - 7.2.2 XX子系统数据课设计
     - 7.2.x [第三方数据评审结果](https://github.com/dramaticTickets/dramatic-tickets/issues/2)
-  - [7.3 API 设计](https://dramatictickets.github.io/dashboard/documents/7_3_Design)
+  - 7.3 [API 设计](https://dramatictickets.github.io/dashboard/documents/7_3_Design)
   - 7.4 [Software Architecture Document](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/14_Software_Architecture_Document.md)
   - 7.5 [用例设计](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/16_ECB_sequence%20class_diagram.md)
 - 8、生产规范与指南
   - 8.1 [XX 代码规范](https://dramatictickets.github.io/dashboard/documents/9_code_style)
   - 8.2 [REST API 设计规范](https://dramatictickets.github.io/dashboard/documents/7_3_Design)
   - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](https://github.com/dramaticTickets/dramatic-tickets/blob/master/documents/15_Catalog_design_Logical_architecture_ECB.md)
-  - 8.4 [部署项目的Readme]()
+  - 8.4 [部署项目的Readme](https://github.com/dramaticTickets/dramatic-tickets/)
 - 9、[Supplementary Requirements](https://dramatictickets.github.io/dashboard/documents/13_Supplementary_Specification)
-- 10、[Software Architecture Document](https://dramatictickets.github.io/dashboard/documents/14_Software_Architecture_Document)
 - X1 meet_recording
   - [inception meeting (2018/3/23, 2018/3/30, 2018/4/10)](https://dramatictickets.github.io/dashboard/documents/2_meet_recordings)
 - X2 Tech/Work Report
