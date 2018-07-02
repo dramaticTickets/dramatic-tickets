@@ -77,7 +77,7 @@ DramaticTickets 是一个 Android 平台下的一个手机电影购票应用程�
 ![domain model](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/model.png)
 
  - 产品E-R模型
-   ![ER图](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/修改ER图.png)
+![ER图](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/修改ER图.png)
 
  - 产品状态模型
     - 订单状态模型
