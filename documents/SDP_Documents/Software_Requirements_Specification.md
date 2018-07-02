@@ -77,7 +77,7 @@ DramaticTickets 是一个 Android 平台下的一个手机电影购票应用程�
 ![domain model](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/model.png)
 
  - 产品E-R模型
-![ER图](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/修改ER图.png)
+ ![ER图](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/修改ER图.png)
 
  - 产品状态模型
     - 订单状态模型
@@ -100,28 +100,36 @@ DramaticTickets 是一个 Android 平台下的一个手机电影购票应用程�
        - Movie: 正在上映的影片
        - Cinema: 上映电影的影院
        - Seat: 该影院上映电影的场次、座位。
-   ![ECB类图](https://raw.githubusercontent.com/zichang06/markdownPics/master/project_类图.png)
+    ![ECB类图](https://raw.githubusercontent.com/zichang06/markdownPics/master/project_类图.png)
 
     - ECB顺序图
       ![ECB顺序图](https://raw.githubusercontent.com/zichang06/markdownPics/master/project_顺序图.png)
+
     - 用户注册
       ![用户注册](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/SystemSequenceDiagram1.png)
+
     - 选择影片购票
       ![选择影片购票](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/System%20Sequence%20Diagrams%202.png)
+
     - 选择影院购票
       ![选择影院购票](https://raw.githubusercontent.com/Cicicigar/markdown_pics/master/顺序图3.PNG)
+
     - 同场次座位更换
       ![同场次座位更换](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/system_sequence_diagram_更换座位.png)
+
     - 历史购票记录
       ![历史购票记录](https://raw.githubusercontent.com/zichang06/markdownPics/master/week10.png)
+
     - 即将开场影票查询
       ![即将开场影票查询](https://raw.githubusercontent.com/czjcssy/PictureStore/master/pic/取票顺序图.png)
+
     - 用户资料更改
       ![用户资料更改](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/modifyPersonalInformation_ssd.png)
 
 ### 产品视图设计
  - 逻辑视图
    ![逻辑视图](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/逻辑视图.png)
+
  - 物理视图
    ![物理视图](https://raw.githubusercontent.com/dramaticTickets/dramatic-tickets/master/pictures/14_物理视图.png)
 
@@ -144,6 +152,7 @@ DramaticTickets 是一个 Android 平台下的一个手机电影购票应用程�
     - 手机
     - 平板电脑
     - 电影票取票机
+
  - 软件接口 
     - 登陆接口（微信、QQ等）
     - 支付接口
