@@ -20,7 +20,7 @@
 
 **制品与贡献率：**
 
-<table>
+<table style=" text-align:center;">
    <tr>
        <td></td>
        <td><strong>制品</strong></td>
@@ -74,7 +74,7 @@
         <td>0</td>
     </tr>
     <tr>
-        <td rowspan="2"><strong>源码</strong></td>
+        <td rowspan="6"><strong>源码</strong></td>
         <td><strong>前端页面实现</strong></td>
         <td>0</td>
         <td>0</td>
