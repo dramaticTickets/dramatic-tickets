@@ -60,5 +60,6 @@ DramaticTickets互联网电影票售票系统，是一款基于安卓平台的�
 
 ### 观影列表
 点击底部导航栏`我的`，查看`观影历史`，页面将列表显示历史订单，点击某个订单可以跳转至订单详情页面。界面如下：
-<div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" /><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/14.jpg?raw=true" width="250px" /></div>
+<div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" />
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/14.jpg?raw=true" width="250px" /></div>
 
