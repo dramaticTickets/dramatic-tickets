@@ -22,7 +22,7 @@ DramaticTickets互联网电影票售票系统，是一款基于安卓平台的�
 ## 三、使用方法
 ### 用户注册
 通过以下步骤进行用户注册：点击底部导航栏`我的`->`登录/注册`->`注册`，点击注册上方的图标可以上传头像。主要界面如图所示：
-<div align=left><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/2.jpg?raw=true" width="250px" />
+<div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/2.jpg?raw=true" width="250px" />
 <img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/0.jpg?raw=true" width="250px" /></div>
 
 ### 用户登录
