@@ -23,18 +23,18 @@ DramaticTickets互联网电影票售票系统，是一款基于安卓平台的�
 ### 用户注册
 通过以下步骤进行用户注册：点击底部导航栏`我的`->`登录/注册`->`注册`，点击注册上方的图标可以上传头像。主要界面如图所示：
 <div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/2.jpg?raw=true" width="250px" />
-<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/0.jpg?raw=true" width="250px" /></div>
+<img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/3.jpg?raw=true" width="250px" /></div>
 
 ### 用户登录
 注册成功的用户通过以下步骤进行用户登陆：点击底部导航栏`我的`->`登录/注册`->`登录`，界面如图：
 <div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/15.jpg?raw=true" width="250px" /></div>
 
 ### 首页
-访问app的首页，最热的电影海报在页面最上方滚动，中间是搜索栏，输入影片关键字，可搜索到相关影片。下方有两排列表：热映电影和即将上映影片。点击列表中的某部电影和轮播图中的海报都可以跳转至对应的电影详情，点击列表中某部电影的购车按钮即可立即购票：
+访问app的首页，最热的电影海报在页面最上方滚动，中间是搜索栏，输入影片关键字，可搜索到相关影片。下方有两排列表：热映电影和即将上映影片。点击列表中的某部电影和轮播图中的海报都可以跳转至对应的电影详情，点击列表中某部电影的`购票`按钮即可立即购票：
 <div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/7.jpg?raw=true" width="250px" /></div>
 
 ### 电影详情
-以下为电影详情界面，即可浏览最近上映的电影简讯(包括名称、海报、类型和上映日期等信息)，其中右上角点击可以收藏，点击底部立即购票按钮即可跳转至购票页面：
+以下为电影详情界面，即可浏览最近上映的电影简讯(包括名称、海报、类型和上映日期等信息)，点击底部`选座购票`按钮即可跳转至购票页面：
 <div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/13.jpg?raw=true" width="250px" /></div>
 
 ### 影院搜索
@@ -60,5 +60,5 @@ DramaticTickets互联网电影票售票系统，是一款基于安卓平台的�
 
 ### 观影列表
 点击底部导航栏`我的`，查看`观影历史`，页面将列表显示历史订单，点击某个订单可以跳转至订单详情页面。界面如下：
-<div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/14.jpg?raw=true" width="250px" /></div>
+<div align=center><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/4.jpg?raw=true" width="250px" /><img  src="https://github.com/dramaticTickets/dramatic-tickets/blob/master/pictures/final/14.jpg?raw=true" width="250px" /></div>
 
