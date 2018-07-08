@@ -75,16 +75,17 @@
 #### 获取用户信息
 
 ```
-GET /resource/users/{id}
+GET /resource/users/account/{account}
 ```
 
 #### Response
 
 ```
 {
-    "userId": "112233",
+    “account”: “123”,
+    “phone”: “123”,
     "username": "dramaQueen",
-    "phone": "12345678910"
+    “url”:”fdsfa”
 }
 ```
 
