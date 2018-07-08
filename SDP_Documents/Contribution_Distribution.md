@@ -35,7 +35,7 @@
     <tr>
         <td rowspan="4"><strong>文档</strong></td>
         <td><strong>软件设计文档</strong></td>
-        <td>20</td>
+        <td>15</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
