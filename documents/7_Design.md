@@ -61,10 +61,14 @@
 | Code |               Description                |
 | :--: | :--------------------------------------: |
 | 200  |                 success                  |
-| 401  | log in fail -- username not exist/ password incorrect |
-| 402  |  register fail -- username/phone exists  |
-|      |                                          |
-|      |                                          |
+| 401  |  log in fail -- password incorrect       |
+| 403  |  register fail -- phone exists           |
+| 404  |                not found                 |
+| 405  |  register fail -- account exists         |
+| 406  |  query fail -- account or phone not found|
+| 408  |  order fail -- seat not empty            |
+
+
 
 ### 用户类
 
