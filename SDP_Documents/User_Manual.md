@@ -17,7 +17,7 @@ DramaticTickets互联网电影票售票系统，是一款基于安卓平台的�
 
 ## 二、运行环境
 
-[下载安卓版apk]()，安装并运行，需要同意应用权限的请求。
+[下载安卓版apk](https://dramatictickets.github.io/dashboard/documents/Dramatic.apk)，安装并运行，需要同意应用权限的请求。
 
 ## 三、使用方法
 ### 用户注册
