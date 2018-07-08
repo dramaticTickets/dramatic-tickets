@@ -98,7 +98,7 @@
         <td><strong>前端网络请求实现</strong></td>
         <td>0</td>
         <td>0</td>
-        <td>50/td>
+        <td>50</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
