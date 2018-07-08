@@ -108,8 +108,8 @@
         <td><strong>后端云服务器</strong></td>
         <td>0</td>
         <td>0</td>
-        <td>0</td>
-        <td>100</td>
+        <td>90</td>
+        <td>10</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -118,8 +118,8 @@
         <td><strong>后端数据库</strong></td>
         <td>0</td>
         <td>0</td>
-        <td>70</td>
         <td>30</td>
+        <td>70</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -128,8 +128,8 @@
         <td><strong>后端restful api</strong></td>
         <td>0</td>
         <td>0</td>
-        <td>30</td>
         <td>70</td>
+        <td>30</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
