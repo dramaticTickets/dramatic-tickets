@@ -108,8 +108,8 @@
         <td><strong>后端云服务器</strong></td>
         <td>0</td>
         <td>0</td>
-        <td>90</td>
-        <td>10</td>
+        <td>80</td>
+        <td>20</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
