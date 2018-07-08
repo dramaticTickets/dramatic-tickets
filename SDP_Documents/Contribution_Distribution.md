@@ -79,30 +79,30 @@
         <td>0</td>
         <td>0</td>
         <td>0</td>
+        <td>15</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+        <td>70</td>
+        <td>15</td>
     </tr>
     <tr>
         <td><strong>前端逻辑实现</strong></td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
+        <td>10</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+        <td>20</td>
+        <td>70</td>
     </tr>
     <tr>
         <td><strong>前端网络请求实现</strong></td>
         <td>0</td>
         <td>0</td>
+        <td>50/td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
+        <td>50</td>
     </tr>
     <tr>
         <td><strong>后端云服务器</strong></td>
